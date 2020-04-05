@@ -37,24 +37,28 @@ projects:
 
 social_media:
   - name: Facebook
-    icon_path: static/fb-icon.png
+    icon_path: static/fb-icon.svg
     url: https://www.facebook.com/opstree
 
   - name: Twitter
-    icon_path: static/twitter-icon.png
+    icon_path: static/twitter-icon.svg
     url: https://twitter.com/opstreedevops
 
   - name: LinkedIN
-    icon_path: static/linkedin-icon.png
+    icon_path: static/linkedin-icon.svg
     url: https://www.linkedin.com/company/opstree-solutions
 
   - name: GitHub
-    icon_path: static/github-icon.png
+    icon_path: static/github-icon.svg
     url: https://github.com/OpsTree
 
   - name: Mail
-    icon_path: static/mail-icon.png
+    icon_path: static/mail-icon.svg
     url: mailto:connect@opstree.com
+
+  - name: Slack
+    icon_path: static/slack-icon.svg
+    url: https://join.slack.com/t/opstree/shared_invite/zt-3o8jp35x-UGMU2Cy0WSBk3Lbzqa2wVw
 
 container:
   - icon_path: "static/redis-operator.svg"
