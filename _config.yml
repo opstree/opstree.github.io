@@ -11,25 +11,25 @@ blog_link: "https://blog.opstree.com"
 website_link: "https://opstree.com"
 
 projects:
-  - icon_path: "static/automation.png"
+  - icon_path: "static/automation.svg"
     name: Automation
     description: Automation related utilities, like ansible role, scripts are present here
     subpath: /automation/
     align: left
  
-  - icon_path: "static/containerization.png"
+  - icon_path: "static/containerization.svg"
     name: Container
     description: Container world related things like Kubernetes and Docker are present here
     subpath: /containerization/
     align: center
 
-  - icon_path: "static/cloud.png"
+  - icon_path: "static/cloud.svg"
     name: Cloud
     description: Cloud related tools and utilities like terraform are present here
     subpath: /cloud/
     align: right
 
-  - icon_path: "static/database.png"
+  - icon_path: "static/database.svg"
     name: Database
     description: Database related tools and utilities are present here
     subpath: /database/
@@ -57,12 +57,12 @@ social_media:
     url: mailto:connect@opstree.com
 
 container:
-  - icon_path: "static/redis-operator.png"
+  - icon_path: "static/redis-operator.svg"
     name: Redis Operator
     description: A golang based redis operator which will make/oversee Redis setup on K8s.
     repo_link: https://github.com/OT-CONTAINER-KIT/redis-operator
 
-  - icon_path: "static/dynamic-pv-scaler.png"
+  - icon_path: "static/dynamic-pv-scaler.svg"
     name: Dynamic PV Scaler
     description: A golang based K8s application which overcomes the scaling issue of PVC in K8s.
     repo_link: https://github.com/opstree/dynamic-pv-scaler
