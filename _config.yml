@@ -1,0 +1,114 @@
+title: Opstree OSS
+description: Opstree's opensource contribution to world
+show_downloads: false
+is_project_page: false
+google_analytics:
+theme: jekyll-theme-cayman
+logo: opstree.png
+header_page_refs: ['now', 'about', 'contact']
+github_link: "https://github.com/opstree"
+blog_link: "https://blog.opstree.com"
+website_link: "https://opstree.com"
+
+projects:
+  - icon_path: "static/automation.png"
+    name: Automation
+    description: Automation related utilities, like ansible role, scripts are present here
+    subpath: /automation/
+    align: left
+ 
+  - icon_path: "static/containerization.png"
+    name: Container
+    description: Container world related things like Kubernetes and Docker are present here
+    subpath: /containerization/
+    align: center
+
+  - icon_path: "static/cloud.png"
+    name: Cloud
+    description: Cloud related tools and utilities like terraform are present here
+    subpath: /cloud/
+    align: right
+
+  - icon_path: "static/database.png"
+    name: Database
+    description: Database related tools and utilities are present here
+    subpath: /database/
+    align: right
+
+social_media:
+  - name: Facebook
+    icon_path: static/fb-icon.png
+    url: https://www.facebook.com/opstree
+
+  - name: Twitter
+    icon_path: static/twitter-icon.png
+    url: https://twitter.com/opstreedevops
+
+  - name: LinkedIN
+    icon_path: static/linkedin-icon.png
+    url: https://www.linkedin.com/company/opstree-solutions
+
+  - name: GitHub
+    icon_path: static/github-icon.png
+    url: https://github.com/OpsTree
+
+  - name: Mail
+    icon_path: static/mail-icon.png
+    url: mailto:connect@opstree.com
+
+container:
+  - icon_path: "static/redis-operator.png"
+    name: Redis Operator
+    description: A golang based redis operator which will make/oversee Redis setup on K8s.
+    repo_link: https://github.com/OT-CONTAINER-KIT/redis-operator
+
+  - icon_path: "static/dynamic-pv-scaler.png"
+    name: Dynamic PV Scaler
+    description: A golang based K8s application which overcomes the scaling issue of PVC in K8s.
+    repo_link: https://github.com/opstree/dynamic-pv-scaler
+
+  - icon_path: "static/redis-docker-image.svg"
+    name: Redis Docker Image
+    description: A production based Redis and Redis Exporter docker image
+    repo_link: https://github.com/OT-CONTAINER-KIT/redis
+
+automation:
+  - icon_path: "static/tomcat-logo.svg"
+    name: "Ansible: Tomcat"
+    description: An ansible role to install and configure Apache Tomcat.
+    repo_link: https://github.com/OT-OSM/tomcat
+
+  - icon_path: "static/jenkins-logo.svg"
+    name: "Ansible: Jenkins"
+    description: An ansible role to install and configure jenkins server.
+    repo_link: https://github.com/OT-OSM/jenkins
+
+  - icon_path: "static/kafka-logo.svg"
+    name: "Ansible: Kafka"
+    description: A high end ansible role which will setup kafka and zookeeper cluster.
+    repo_link: https://github.com/OT-OSM/kafka_cluster
+
+  - icon_path: "static/mysql-logo.svg"
+    name: "Ansible: MySQL"
+    description: A high end ansible role to setup standalone or a cluster MySQL.
+    repo_link: https://github.com/OT-OSM/MySQL
+
+  - icon_path: "static/alertmanager-logo.svg"
+    name: "Ansible: Alertmanager"
+    description: An ansible role to install and configure alertmanager server.
+    repo_link: https://github.com/OT-OSM/alertmanager
+
+  - icon_path: "static/prometheus-logo.svg"
+    name: "Ansible: Prometheus"
+    description: An ansible role to install and configure prometheus server.
+    repo_link: https://github.com/OT-OSM/MySQL
+
+  - icon_path: "static/grafana-logo.svg"
+    name: "Ansible: Grafana"
+    description: An ansible role to install and configure grafana server.
+    repo_link: https://github.com/OT-OSM/grafana
+
+  - icon_path: "static/openvpn-logo.svg"
+    name: "Ansible: OpenVPN"
+    description: An ansible role to install and configure OpenVPN server.
+    repo_link: https://github.com/OT-OSM/openvpn

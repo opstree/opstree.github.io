@@ -1,0 +1,34 @@
+<head>
+    <style>
+        .card-custom{
+            max-width: 250px;
+            max-height: 400px; 
+        }
+        .card-img-top {
+            width: 60%;
+            height: 60%;
+            object-fit: cover;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <div class="container mt-4">
+        <div class="row mt-5 justify-content-center">
+            {% for item in site.automation %}
+                <div class="card card-custom mx-2 mb-3">
+                    <div class="card-body">
+                        <a href="{{ item.repo_link }}" target="_blank" rel="noopener noreferrer">
+                            <img src="{{ item.icon_path }}" alt="" class="card-img" width="80" height="80">
+                        </a>
+                        <h5 class="card-title mt-3 text-center" style="color: #006ec2; font-family: Muli;">{{ item.name }}</h5>
+                        <p class="card-text" style="font-family: Muli;">{{ item.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</head>
