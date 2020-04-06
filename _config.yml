@@ -76,6 +76,11 @@ container:
     description: A production based Redis and Redis Exporter docker image
     repo_link: https://github.com/OT-CONTAINER-KIT/redis
 
+  - icon_path: "static/docker-elk.svg"
+    name: Docker Compose ELK
+    description: A compose setup for ELK (Elasticsearch, Logtsash and Kibana)
+    repo_link: https://github.com/opstree/docker-elk
+
 automation:
   - icon_path: "static/tomcat-logo.svg"
     name: "Ansible: Tomcat"
@@ -116,3 +121,14 @@ automation:
     name: "Ansible: OpenVPN"
     description: An ansible role to install and configure OpenVPN server.
     repo_link: https://github.com/OT-OSM/openvpn
+
+database:
+  - icon_path: "static/redis-migration.svg"
+    name: "Redis Migrator"
+    description: A utility to migrate redis data from one server to another
+    repo_link: https://github.com/opstree/redis-migration
+
+  - icon_path: "static/redis-load-test.svg"
+    name: "Redis Load Test"
+    description: A utility to test performance of Redis
+    repo_link: https://github.com/opstree/redis-load-test
