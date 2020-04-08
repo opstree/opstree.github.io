@@ -132,3 +132,9 @@ database:
     name: "Redis Load Test"
     description: A utility to test performance of Redis
     repo_link: https://github.com/opstree/redis-load-test
+
+cloud:
+  - icon_path: "static/cs-suite.svg"
+    name: "CS Suite"
+    description: Cloud Security Suite - One stop tool for auditing the security posture of AWS / GCP /Azure infrastructure.
+    repo_link: https://github.com/opstree/cs-suite
