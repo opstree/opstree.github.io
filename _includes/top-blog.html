@@ -1,0 +1,72 @@
+<section>
+  <head>
+    <body>
+      <div class="container mt-5 ml-6">
+        <h2 style="color: #002856; font-family: Muli; font-weight: 550;">Our Top Blogs</h2>
+        <div id="multi-item-example1" class="carousel slide carousel-multi-item" data-ride="carousel">    
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#multi-item-example1" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example1" data-slide-to="1"></li>      
+          </ol>
+          <!--/.Indicators-->
+        
+          <!--Slides-->
+          <div class="carousel-inner mt-5" role="listbox">
+        
+            <!--First slide-->
+            <div class="carousel-item active">
+              
+              {% for item in site.slide1_blogs %}
+                  <div class="col-md-3" style="float:left">
+                      <div class="card mb-2 shadow">
+                          <div class="card-body">
+                          <h5 style="color: #002856; font-family: Muli; font-weight: 550;" class="card-title">{{ item.blog_title }}</h5>
+                          <p class="card-text text-center" style="color: grey; font-family: Muli; font-weight: 550;">{{ item.blog_description }}</p>
+                          <a class="btn btn-primary text-center" style="color: white; font-family: Muli; font-weight: 550;" href="{{ item.blog_link }}">Read Article</a>
+                          </div>
+                          <div class="card-footer">
+                              <small class="text-muted">{{ item.published_date }}</small>
+                          </div>
+                      </div>
+                  </div>
+              {% endfor %}      
+            </div>
+            <!--/.First slide-->
+        
+            <!--Second slide-->
+            <div class="carousel-item">
+              {% for item in site.slide2_blogs %}
+                  <div class="col-md-3" style="float:left">
+                      <div class="card mb-2 shadow">
+                          <div class="card-body">
+                          <h5 style="color: #002856; font-family: Muli; font-weight: 550;" class="card-title">{{ item.blog_title }}</h5>
+                          <p class="card-text text-center" style="color: grey; font-family: Muli; font-weight: 550;">{{ item.blog_description }}</p>
+                          <a class="btn btn-primary text-center" style="color: white; font-family: Muli; font-weight: 550;" href="{{ item.blog_link }}">Read Article</a>
+                          </div>
+                          <div class="card-footer">
+                              <small class="text-muted">{{ item.published_date }}</small>
+                          </div>
+                      </div>
+                  </div>
+              {% endfor %}  
+        
+            </div>
+            <!--/.Second slide-->
+    
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+    
+          <div class="pb-1 mt-4">
+            <div class="controls-top text-center">
+              <a class="btn-floating fas" href="#multi-item-example1" data-slide="prev"><img src="static/left.svg" height="48" width="48" ></a>
+              <a class="btn-floating p-1" href="#multi-item-example1" data-slide="next"><img src="static/right.svg" height="48" width="48" ></a>
+            </div>
+          </div>
+          <!--/.Controls-->
+        </div>
+      </div>
+    </body>
+  
+</section>

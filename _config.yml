@@ -5,6 +5,10 @@ is_project_page: false
 google_analytics:
 theme: jekyll-theme-cayman
 logo: opstree.png
+footer_logo: static/footer-logo.png
+footer_linkedin_logo: static/footer-linkedin.svg
+footer_fb_logo: static/footer-fb.svg
+footer_blog_logo: static/footer-blog.svg
 header_page_refs: ['now', 'about', 'contact']
 github_link: "https://github.com/opstree"
 blog_link: "https://blog.opstree.com"
@@ -122,6 +126,7 @@ automation:
     description: An ansible role to install and configure OpenVPN server.
     repo_link: https://github.com/OT-OSM/openvpn
 
+
 database:
   - icon_path: "static/redis-migration.svg"
     name: "Redis Migrator"
@@ -138,3 +143,87 @@ cloud:
     name: "CS Suite"
     description: Cloud Security Suite - One stop tool for auditing the security posture of AWS / GCP /Azure infrastructure.
     repo_link: https://github.com/opstree/cs-suite
+
+slide1_blogs:
+  - blog_title: "What, Why and How of CTF Challenges?"
+    blog_description: What is CTF? and how can we be part of this
+    blog_link: https://blog.opstree.com/2020/02/03/what-why-and-how-of-ctf-challenges/
+    published_date: Published on 3rd Feb 2020
+
+  - blog_title: "Docker Inside Out - A Container Lifecycle"
+    blog_description: Find out lifecycle of a container using Docker
+    blog_link: https://blog.opstree.com/2020/01/21/docker-inside-out-a-journey-to-the-running-container/
+    published_date: Published on 21st Jan 2020
+
+  - blog_title: "Log Everything as JSON"
+    blog_description: How to manage unstructured log data
+    blog_link: https://blog.opstree.com/2019/12/31/log-everything-as-json/
+    published_date: Published on 31st Dec 2019
+
+  - blog_title: "Ansible Test Cases"
+    blog_description: How to test ansible playbook/role using molecule with Docker
+    blog_link: https://blog.opstree.com/2019/12/24/how-to-test-ansible-playbook-role-using-molecule-with-docker/
+    published_date: Published on 24th Dec 2019
+
+slide2_blogs:
+  - blog_title: "Alertmanager + MS-teams"
+    blog_description: How to use Alertmanager with MS-teams
+    blog_link: https://blog.opstree.com/2019/12/03/prometheus-alertmanager-integration-with-ms-teams/
+    published_date: Published on 3rd Dec 2019
+
+  - blog_title: "Why GitOps is so exciting"
+    blog_description: An introduction to a popular term "GitOps"
+    blog_link: https://blog.opstree.com/2020/02/18/why-gitops-is-so-exciting/
+    published_date: Published on 18th Feb 2020
+
+  - blog_title: "Perfect Spot instances"
+    blog_description: Incorporate and reap benifits of Spot Instances
+    blog_link: https://blog.opstree.com/2019/11/05/perfect-spot-instances-imperfections-part-i/
+    published_date: Published on 31st Dec 2019
+
+  - blog_title: "Jenkins Shared Library"
+    blog_description: Driver common standards and practices using Jenkins
+    blog_link: https://blog.opstree.com/2019/12/24/how-to-test-ansible-playbook-role-using-molecule-with-docker/
+    published_date: Published on 24th Dec 2019
+
+latest_slide1_blogs:
+  - blog_title: "Capturing Source IP in ELB and Istio's Envoy"
+    blog_description: Preserve Source IP in AWS Classic Load-Balancer and Istio’s envoy using proxy protocol
+    blog_link: https://blog.opstree.com/2020/04/07/preserve-source-ip-in-aws-classic-load-balancer-and-istios-envoy-using-proxy-protocol/
+    published_date: Published on 7th Apr 2020
+
+  - blog_title: "Stash logs better with Logstash"
+    blog_description: How to parse logs in an efficient way using logstash to reduce size of data
+    blog_link: http://blog.opstree.com/2020/04/01/stash-logs-better-with-logstash/
+    published_date: Published on 1st Apr 2020
+
+  - blog_title: "Ansible directory structure (Default vs Vars)"
+    blog_description: Variables behaviour in ansible and their precendence
+    blog_link: http://blog.opstree.com/2020/03/24/ansible-directory-structure-default-vs-vars/
+    published_date: Published on 24th Mar 2020
+
+  - blog_title: "Terraform Workspace - Multiple Environment"
+    blog_description: How to manage multiple environment infrastructure using terraform
+    blog_link: http://blog.opstree.com/2020/03/18/terraform-workspace-multiple-environment/
+    published_date: Published on 18th Mar 2020
+
+latest_slide2_blogs:
+  - blog_title: "Raktbeej Proxy"
+    blog_description: How to manage multiple VPN connection using server, docker containers, and proxy mechanism
+    blog_link: http://blog.opstree.com/2020/02/25/raktbeej-proxy/
+    published_date: Published on 25th Feb 2020
+
+  - blog_title: "Why GitOps is so exciting?"
+    blog_description: Introduction to a popular term "GitOps" and how it makes life easy
+    blog_link: http://blog.opstree.com/2020/04/01/stash-logs-better-with-logstash/
+    published_date: Published on 18th Feb 2020
+
+  - blog_title: "Shell initialization files"
+    blog_description: Gives in-depth insights about how linux shell manage things behind the scene
+    blog_link: http://blog.opstree.com/2020/02/11/shell-initialization-files/
+    published_date: Published on 11th Feb 2020
+
+  - blog_title: "What, Why and How of CTF Challanges?"
+    blog_description: Introduction about CTF challanges and how you can be part of it
+    blog_link: http://blog.opstree.com/2020/02/03/what-why-and-how-of-ctf-challenges/
+    published_date: Published on 3rd Feb 2020
