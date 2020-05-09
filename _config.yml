@@ -166,8 +166,18 @@ database:
 cloud:
   - icon_path: "static/cs-suite.svg"
     name: "CS Suite"
-    description: Cloud Security Suite - One stop tool for auditing the security posture of AWS / GCP /Azure infrastructure.
+    description: Cloud Security Suite - One stop tool for auditing the security posture of AWS/GCP/Azure infrastructure.
     repo_link: https://github.com/opstree/cs-suite
+
+  - icon_path: "static/security-group.svg"
+    name: "AWS Security Group"
+    description: Terraform module which creates security group on AWS Cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-security-groups
+
+  - icon_path: "static/network.svg"
+    name: "Network Skeleton"
+    description: Terraform module which creates network skeleton on AWS Cloud
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-network-skeleton
 
 slide1_blogs:
   - blog_title: "What, Why and How of CTF Challenges?"
