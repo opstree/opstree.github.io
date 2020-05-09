@@ -20,7 +20,7 @@ projects:
     description: Automation related utilities, like ansible role, scripts are present here
     subpath: /automation/
     align: left
- 
+
   - icon_path: "static/containerization.svg"
     name: Container
     description: Container world related things like Kubernetes and Docker are present here
@@ -84,6 +84,17 @@ container:
     name: Docker Compose ELK
     description: A compose setup for ELK (Elasticsearch, Logtsash and Kibana)
     repo_link: https://github.com/opstree/docker-elk
+
+  - icon_path: "static/containerization.svg"
+    name: Restic Image
+    description: Wrapper utility over restic for backup/restore
+    repo_link: https://github.com/OT-CONTAINER-KIT/restic
+
+  - icon_path: "static/containerization.svg"
+    name: MySQL Backup Image
+    description: Backup utility written on top of Restic for MySQL Backup/restore
+    repo_link: https://github.com/OT-CONTAINER-KIT/mysqlbackup
+
 
 automation:
   - icon_path: "static/tomcat-logo.svg"
