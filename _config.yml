@@ -136,7 +136,7 @@ automation:
     description: An ansible role to install and configure elasticsearch cluster.
     repo_link: https://github.com/OT-OSM/elasticsearch_cluster
 
-  - icon_path: "https://xebialabs.com/wp-content/uploads/files/plugins/nexus.jpg"
+  - icon_path: "static/nexus-logo.svg"
     name: "Ansible: Nexus"
     description: An ansible role to install and configure Nexus.
     repo_link: https://github.com/OT-OSM/nexus
