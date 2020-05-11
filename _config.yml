@@ -136,17 +136,17 @@ automation:
     description: An ansible role to install and configure OpenVPN server.
     repo_link: https://github.com/OT-OSM/openvpn
 
-  - icon_path: "https://img.icons8.com/color/48/000000/elasticsearch.png"
+  - icon_path: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg"
     name: "Ansible: Elasticsearch"
     description: An ansible role to install and configure elasticsearch cluster.
     repo_link: https://github.com/OT-OSM/elasticsearch_cluster
 
-  - icon_path: "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
-    name: "Ansible: Elasticsearch"
+  - icon_path: "https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg"
+    name: "Ansible: Java"
     description: An ansible role to install and configure java.
     repo_link: https://github.com/OT-OSM/java
 
-  - icon_path: "https://img.icons8.com/color/48/000000/linux.png"
+  - icon_path: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
     name: "Ansible: Linux_armour"
     description: An ansible role to harden linux platform.
     repo_link: https://github.com/OT-OSM/linux_armour
@@ -166,7 +166,7 @@ automation:
     description: An ansible role to install and configure Sachet.
     repo_link: https://github.com/OT-OSM/sachet-telegram-integration
 
-  - icon_path: "https://img.icons8.com/plasticine/100/000000/commercial-development-management.png"
+  - icon_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTcA-g0jj57wwJe-Rx0ag7D9XjE0ojVNn5gIt1vpPdeAP6pD69t&usqp=CAU"
     name: "Ansible: Usermanagement"
     description: An ansible role to manage users and groups on linux.
     repo_link: https://github.com/OT-OSM/usermanagement
