@@ -166,7 +166,7 @@ automation:
     description: An ansible role to install and configure Sachet.
     repo_link: https://github.com/OT-OSM/sachet-telegram-integration
 
-  - icon_path: "https://cdn.onlinewebfonts.com/svg/img_335442.png"
+  - icon_path: "static/user-logo.svg"
     name: "Ansible: Usermanagement"
     description: An ansible role to manage users and groups on linux.
     repo_link: https://github.com/OT-OSM/usermanagement
