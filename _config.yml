@@ -96,7 +96,7 @@ container:
     repo_link: https://github.com/OT-CONTAINER-KIT/mysqlbackup
 
 automation:
-  - icon_path: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+  - icon_path: "static/linux-logo.svg"
     name: "Ansible: Linux_armour"
     description: An ansible role to harden linux platform.
     repo_link: https://github.com/OT-OSM/linux_armour
@@ -111,7 +111,7 @@ automation:
     description: An ansible role to install and configure Apache Tomcat.
     repo_link: https://github.com/OT-OSM/tomcat
 
-  - icon_path: "https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg"
+  - icon_path: "static/java-logo.svg"
     name: "Ansible: Java"
     description: An ansible role to install and configure java.
     repo_link: https://github.com/OT-OSM/java
