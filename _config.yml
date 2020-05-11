@@ -151,7 +151,7 @@ automation:
     description: An ansible role to harden linux platform.
     repo_link: https://github.com/OT-OSM/linux_armour
 
-  - icon_path: "https://user-images.githubusercontent.com/7955995/29498304-ee71d418-85c6-11e7-9f95-e87a4439ed3c.png"
+  - icon_path: "https://xebialabs.com/wp-content/uploads/files/plugins/nexus.jpg"
     name: "Ansible: Nexus"
     description: An ansible role to install and configure Nexus.
     repo_link: https://github.com/OT-OSM/nexus
