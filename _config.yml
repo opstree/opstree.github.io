@@ -204,27 +204,27 @@ cloud:
     repo_link: https://github.com/opstree/cs-suite
 
   - icon_path: "static/security-group.svg"
-    name: "Terraform:AWS:Security Group"
+    name: "Terraform: AWS Security Group"
     description: Terraform module which creates security group on AWS Cloud.
     repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/security-groups/aws
 
   - icon_path: "static/network.svg"
-    name: "Terraform:AWS:Network Skeleton"
+    name: "Terraform: AWS Network Skeleton"
     description: Terraform module which provides networking solution on AWS Cloud.
     repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/network-skeleton/aws
 
   - icon_path: "static/static-website-container.svg"
-    name: "Terraform:AWS:Static Website Container"
+    name: "Terraform: AWS Static Website Container"
     description: Terraform module which provides static website hosting on s3 with CDN on AWS Cloud.
     repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/static-website-container/aws
 
   - icon_path: "static/eks.svg"
-    name: "Terraform:AWS:EKS Cluster"
+    name: "Terraform: AWS EKS Cluster"
     description: Terraform module which creates Elastic Kubernetes service cluster on AWS Cloud.
     repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/eks/aws
 
   - icon_path: "static/ha-ec2-alb.svg"
-    name: "Terraform:AWS:HA-EC2-ALB"
+    name: "Terraform: AWS HA-EC2-ALB"
     description: Terraform module which provides a High Available and quick disaster recovery setup for EC2 in stance on AWS cloud.
     repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/ha-ec2-alb/aws
 
