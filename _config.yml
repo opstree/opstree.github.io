@@ -99,77 +99,77 @@ automation:
   - icon_path: "static/linux-logo.svg"
     name: "Ansible: Linux_armour"
     description: An ansible role to harden linux platform.
-    repo_link: https://github.com/OT-OSM/linux_armour
+    repo_link: https://galaxy.ansible.com/opstree_devops/linux_armour
 
   - icon_path: "static/user-logo.svg"
     name: "Ansible: Usermanagement"
     description: An ansible role to manage users and groups on linux.
-    repo_link: https://github.com/OT-OSM/usermanagement
+    repo_link: https://galaxy.ansible.com/opstree_devops/usermanagement
 
   - icon_path: "static/tomcat-logo.svg"
     name: "Ansible: Tomcat"
     description: An ansible role to install and configure Apache Tomcat.
-    repo_link: https://github.com/OT-OSM/tomcat
+    repo_link: https://galaxy.ansible.com/opstree_devops/tomcat
 
   - icon_path: "static/java-logo.svg"
     name: "Ansible: Java"
     description: An ansible role to install and configure java.
-    repo_link: https://github.com/OT-OSM/java
+    repo_link: https://galaxy.ansible.com/opstree_devops/java
 
   - icon_path: "static/jenkins-logo.svg"
     name: "Ansible: Jenkins"
     description: An ansible role to install and configure jenkins server.
-    repo_link: https://github.com/OT-OSM/jenkins
+    repo_link: https://galaxy.ansible.com/opstree_devops/jenkins
 
   - icon_path: "static/kafka-logo.svg"
     name: "Ansible: Kafka"
     description: A high end ansible role which will setup kafka and zookeeper cluster.
-    repo_link: https://github.com/OT-OSM/kafka_cluster
+    repo_link: https://galaxy.ansible.com/opstree_devops/kafka_cluster
 
   - icon_path: "static/mysql-logo.svg"
     name: "Ansible: MySQL"
     description: A high end ansible role to setup standalone or a cluster MySQL.
-    repo_link: https://github.com/OT-OSM/MySQL
+    repo_link: https://galaxy.ansible.com/opstree_devops/MySQL
 
   - icon_path: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg"
     name: "Ansible: Elasticsearch"
     description: An ansible role to install and configure elasticsearch cluster.
-    repo_link: https://github.com/OT-OSM/elasticsearch_cluster
+    repo_link: https://galaxy.ansible.com/opstree_devops/elasticsearch_cluster
 
   - icon_path: "static/nexus-logo.svg"
     name: "Ansible: Nexus"
     description: An ansible role to install and configure Nexus.
-    repo_link: https://github.com/OT-OSM/nexus
+    repo_link: https://galaxy.ansible.com/opstree_devops/nexus
 
   - icon_path: "static/openvpn-logo.svg"
     name: "Ansible: OpenVPN"
     description: An ansible role to install and configure OpenVPN server.
-    repo_link: https://github.com/OT-OSM/openvpn
+    repo_link: https://galaxy.ansible.com/opstree_devops/openvpn
 
   - icon_path: "static/prometheus-logo.svg"
     name: "Ansible: Prometheus"
     description: An ansible role to install and configure prometheus server.
-    repo_link: https://github.com/OT-OSM/prometheus
+    repo_link: https://galaxy.ansible.com/opstree_devops/prometheus
 
   - icon_path: "static/prometheus-logo.svg"
     name: "Ansible: Prometheus-exporters"
     description: An ansible role to install various prometheus exporters.
-    repo_link: https://github.com/OT-OSM/prometheus-exporters
+    repo_link: https://galaxy.ansible.com/opstree_devops/prometheus-exporters
 
   - icon_path: "static/alertmanager-logo.svg"
     name: "Ansible: Alertmanager"
     description: An ansible role to install and configure alertmanager server.
-    repo_link: https://github.com/OT-OSM/alertmanager
+    repo_link: https://galaxy.ansible.com/opstree_devops/alertmanager
 
   - icon_path: "static/grafana-logo.svg"
     name: "Ansible: Grafana"
     description: An ansible role to install and configure grafana server.
-    repo_link: https://github.com/OT-OSM/grafana
+    repo_link: https://galaxy.ansible.com/opstree_devops/grafana
 
   - icon_path: "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
     name: "Ansible: Sachet-telegram-integration"
     description: An ansible role to install and configure Sachet.
-    repo_link: https://github.com/OT-OSM/sachet-telegram-integration
+    repo_link: https://galaxy.ansible.com/opstree_devops/sachet-telegram-integration
 
 database:
   - icon_path: "static/druid-exporter.svg"
