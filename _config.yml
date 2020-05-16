@@ -95,6 +95,11 @@ container:
     description: Backup utility written on top of Restic for MySQL Backup/restore
     repo_link: https://github.com/OT-CONTAINER-KIT/mysqlbackup
 
+  - icon_path: "static/containerization.svg"
+    name: Terraform image
+    description: A docker wrapper to run terraform without installing terraform
+    repo_link: https://github.com/OT-CONTAINER-KIT/terraform
+
 automation:
   - icon_path: "static/linux-logo.svg"
     name: "Ansible: Linux_armour"
