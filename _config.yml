@@ -227,8 +227,61 @@ cloud:
     name: "Terraform: AWS HA-EC2-ALB"
     description: Terraform module which provides a High Available and quick disaster recovery setup for EC2 in stance on AWS cloud.
     repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/ha-ec2-alb/aws
+  
+  - icon_path: "static/ec2-instance.svg"
+    name: "Terraform: AWS EC2 Instance"
+    description: Terraform module which creates EC2 Instance on AWS Cloud.
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/ec2-instance/aws
 
+  - icon_path: "static/vpc.svg"
+    name: "Terraform: AWS VPC"
+    description: Terraform module which creates network skeleton on AWS Cloud.
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/vpc/aws
 
+  - icon_path: "static/route53-record-mapping.svg"
+    name: "Terraform: AWS Route53 Record Mapping"
+    description: Terraform module which creates Route53 Records mapping on AWS Cloud.
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/route53-record-mapping/aws
+
+  - icon_path: "static/alb-target-group.svg"
+    name: "Terraform: AWS ALB Target Group"
+    description: Terraform module which creates ALB target group on AWS Cloud.
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/alb_target_group/aws
+
+  - icon_path: "static/subnet.svg"
+    name: "Terraform: AWS Subnet"
+    description: Terraform module which creates subnets under VPC in AWS Cloud.
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/subnet/aws
+
+  - icon_path: "static/alb.svg"
+    name: "Terraform: AWS ALB"
+    description: Terraform module which creates ALB(Application load Balancer) with listeners in AWS Cloud.
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/alb/aws
+  
+  - icon_path: "static/route-table.svg"
+    name: "Terraform: AWS Route Table"
+    description: Terraform module which creates route table on AWS Cloud.
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/route-table/aws
+
+  - icon_path: "static/nat-gateway.svg"
+    name: "Terraform: AWS NAT Gateway"
+    description: Terraform module which creates NAT Gateway in AWS VPC. 
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/nat-gateway/aws
+
+  - icon_path: "static/vpc-peering.svg"
+    name: "Terraform: AWS VPC Peering"
+    description: Terraform module which creates VPC Peering with in and cross-region in AWS Cloud. 
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/vpc-peering/aws
+
+  - icon_path: "static/elasticache-cluster.svg"
+    name: "Terraform: AWS Elasticsearch Cluster"
+    description: Terraform module which creates Elasticsearch Cluster in AWS Cloud. 
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/elasticache-cluster/aws
+
+  - icon_path: "static/cross-account.svg"
+    name: "Terraform: AWS Cross Account Access"
+    description: Terraform module which setup cross AWS account access with user specified permissions. 
+    repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/cross-account/aws
 
 slide1_blogs:
   - blog_title: "What, Why and How of CTF Challenges?"
