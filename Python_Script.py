@@ -56,4 +56,4 @@ finally:
             with open(out_file,'a') as of:
                 yaml.safe_dump(output_data, of, default_flow_style=False)
 
-            print(f"=======Yaml for User {github_username} has been generated=====")
+           
