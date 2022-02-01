@@ -16,7 +16,7 @@ def getDictFromYaml(source_yaml_file):
 getDataFromYaml = getDictFromYaml(source_yaml_data)
 
 
-# #To fetch the Username from github
+#To fetch the Username from github
 def processUsers(getDataFromYaml):
     for users in getDataFromYaml['users']:
         github_username = users
