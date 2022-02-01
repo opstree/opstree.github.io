@@ -64,7 +64,7 @@ def processUsers(getDataFromYaml):
             print(f"Yaml for User {github_username} has been generated")
 
 
-# To fetch the Organizations data from github
+#To fetch the Organizations data from github
 def processOrgs(getDataFromYaml):
     for orgs in getDataFromYaml['orgs']:
         github_orgs = orgs
