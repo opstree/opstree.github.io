@@ -6,7 +6,7 @@ source_yaml_data = 'Open_Source_Input.yml'
 output_yaml_file = 'Output_File.yml'
 
 
-# To Load Input data in yml format
+#To Load Input data in yml format
 def getDictFromYaml(source_yaml_file):
     with open(source_yaml_data) as source_yaml:
         load_input_data = json.dumps(yaml.load(source_yaml, Loader=yaml.FullLoader))  # In String
