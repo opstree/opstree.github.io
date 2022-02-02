@@ -35,7 +35,7 @@ def processUsers(getDataFromYaml):
         # Append all the required fetched repo info into the array
         for repo in range(len(repo_data)):
             Required_info = dict(Name=repo_data[repo]["name"],
-                                 description=(repo_data[i]["description"]),
+                                 description=(repo_data[repo]["description"]),
                                  repo=(repo_data[repo]["html_url"]))
             final_data.append(Required_info)
         output_data = ({category: final_data})
