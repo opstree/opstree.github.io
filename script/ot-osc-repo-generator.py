@@ -2,8 +2,8 @@ import os
 import requests as github
 import json, yaml
 
-SOURCE_YAML_DATA = 'ot-git-details-source.yml'
-OUTPUT_YAML_DATA = 'Output_File.yml'
+SOURCE_YAML_DATA = '../ot-git-details-source.yml'
+OUTPUT_YAML_DATA = 'ot-osc-repo-info.yml'
 
 
 # To Load Input data in yml format
@@ -42,22 +42,22 @@ def processUsers(getDataFromYaml):
 
         # Write the yaml file with the required data
         try:
-            out = open(OUTPUT_YAML_DATA, mode='r').read()
-            if ((os.path.exists(OUTPUT_YAML_DATA)) == False):
+            out = open('../'+ OUTPUT_YAML_DATA, mode='r').read()
+            if ((os.path.exists('../'+ OUTPUT_YAML_DATA)) == False):
                 raise FileNotFoundError("File not found")
             if yaml.safe_dump(output_data, default_flow_style=False) not in out:
-                with open(OUTPUT_YAML_DATA, 'a') as out:
+                with open('../'+ OUTPUT_YAML_DATA, 'a') as out:
                     out.write(yaml.safe_dump(output_data, default_flow_style=False))
             print(f"Yaml for User {github_username} has been generated")
 
         except FileNotFoundError:
-            open('Output_File.yml', "w").close()
-            out = open(OUTPUT_YAML_DATA, mode='r').read()
+            open('../'+ OUTPUT_YAML_DATA, "w").close()
+            out = open('../'+ OUTPUT_YAML_DATA, mode='r').read()
             if yaml.safe_dump(output_data, default_flow_style=False) not in out:
-                print(OUTPUT_YAML_DATA)
-                with open(OUTPUT_YAML_DATA, 'a') as out:
+                with open('../'+ OUTPUT_YAML_DATA, 'a') as out:
                     out.write(yaml.safe_dump(output_data, default_flow_style=False))
             print(f"Yaml for User {github_username} has been generated")
+
 
 
 # To fetch the Organizations data from github
@@ -92,16 +92,16 @@ def processOrgs(getDataFromYaml):
 
         # Write the yaml file with the required data
         try:
-            out = open(OUTPUT_YAML_DATA, mode='r').read()
-            if ((os.path.exists(OUTPUT_YAML_DATA)) == False):
+            out = open('../'+ OUTPUT_YAML_DATA, mode='r').read()
+            if ((os.path.exists('../'+ OUTPUT_YAML_DATA)) == False):
                 raise FileNotFoundError("File not found")
             if yaml.safe_dump(output_data, default_flow_style=False) not in out:
-                with open(OUTPUT_YAML_DATA, 'a') as out:
+                with open('../'+ OUTPUT_YAML_DATA, 'a') as out:
                     out.write(yaml.safe_dump(output_data, default_flow_style=False))
             print(f"Yaml for Organization {github_orgs} has been generated")
 
         except FileNotFoundError:
-            open('Output_File.yml', "w").close()
+            open('../'+ OUTPUT_YAML_DATA, "w").close()
 
 
 if __name__ == "__main__":
