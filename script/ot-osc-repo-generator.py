@@ -83,7 +83,7 @@ def processOrgs(getDataFromYaml):
         # Append all the required fetched repo info into the array
 
         for repo in range(len(repo_data)):
-            Required_info = dict(Name=repo_data[i]["name"],
+            Required_info = dict(Name=repo_data[repo]["name"],
                                  description=(repo_data[repo]["description"]),
                                  repo=(repo_data[repo]["html_url"]))
             final_data.append(Required_info)
