@@ -2,7 +2,7 @@ import os
 import requests as github
 import json, yaml
 
-SOURCE_YAML_DATA = '../config/ot-git-details-source.yml'
+SOURCE_YAML_DATA = '.idea/ot-git-details-source.yml'
 OUTPUT_YAML_DATA = 'ot-osc-repo-info.yml'
 
 
