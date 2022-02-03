@@ -1,0 +1,314 @@
+sandy724:
+- Name: jai
+  description: I'll have all the code stored here
+  repo: https://github.com/sandy724/jai
+- Name: jenkins-lab
+  description: null
+  repo: https://github.com/sandy724/jenkins-lab
+- Name: jfrog-docker-repo-simple-example
+  description: Getting started with JFrog Docker Repos - Example
+  repo: https://github.com/sandy724/jfrog-docker-repo-simple-example
+- Name: sandy724.github.io
+  description: A site containing all the relevant documentation
+  repo: https://github.com/sandy724/sandy724.github.io
+- Name: spinnaker-study
+  description: Simple Quarkus Microservice for CI/CD Demo
+  repo: https://github.com/sandy724/spinnaker-study
+- Name: terminalizer
+  description: "\U0001F984 Record your terminal and generate animated gif images or\
+    \ share a web player"
+  repo: https://github.com/sandy724/terminalizer
+- Name: working-with-helm
+  description: Helm Content and Information
+  repo: https://github.com/sandy724/working-with-helm
+rajat:
+- Name: Android-Login-Registration
+  description: using SQLite
+  repo: https://github.com/rajat/Android-Login-Registration
+- Name: awesome-deep-learning-papers
+  description: The most cited deep learning papers
+  repo: https://github.com/rajat/awesome-deep-learning-papers
+- Name: deploying-a-cognitive-solution-using-ibm-watson
+  description: null
+  repo: https://github.com/rajat/deploying-a-cognitive-solution-using-ibm-watson
+- Name: E-commerce-Price-down
+  description: Python app to check price of an item & notify on price drop.
+  repo: https://github.com/rajat/E-commerce-Price-down
+- Name: finding_donors
+  description: Udacity Course project - To Predict from US census data, people most
+    likely to donate to their cause.
+  repo: https://github.com/rajat/finding_donors
+- Name: google-assistant-demo
+  description: null
+  repo: https://github.com/rajat/google-assistant-demo
+- Name: hello-world
+  description: hello. This is my first submission in github.
+  repo: https://github.com/rajat/hello-world
+- Name: linear-regression
+  description: null
+  repo: https://github.com/rajat/linear-regression
+- Name: natural-language-classifier-nodejs
+  description: See how the classifier service uses natural language to determine the
+    intent behind your question. Ask a question about the weather, and watch as the
+    service classifies the intent as 'temperature' or 'condition' related.
+  repo: https://github.com/rajat/natural-language-classifier-nodejs
+- Name: pysal
+  description: 'PySAL: Python Spatial Analysis Library'
+  repo: https://github.com/rajat/pysal
+- Name: rajat.github.io
+  description: My personal blog
+  repo: https://github.com/rajat/rajat.github.io
+- Name: sample-gui-app-using-pyqt
+  description: This is a small gui desktop application developed in Python language
+    using PyQt framework.
+  repo: https://github.com/rajat/sample-gui-app-using-pyqt
+- Name: spam-detection-using-naive-bayes
+  description: null
+  repo: https://github.com/rajat/spam-detection-using-naive-bayes
+- Name: Spoon-Knife
+  description: This repo is for demonstration purposes only.
+  repo: https://github.com/rajat/Spoon-Knife
+- Name: sTeam
+  description: null
+  repo: https://github.com/rajat/sTeam
+- Name: watson-conversation
+  description: A simple sample application demonstrating the conversation api.
+  repo: https://github.com/rajat/watson-conversation
+CLOUD:
+- Name: terraform-aws-security-groups
+  description: This repository consists of Terraform module for security groups.
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-security-groups
+- Name: terraform-aws-network-skeleton
+  description: This repository consists of Terraform module for network resources
+    in AWS VPC.
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-network-skeleton
+- Name: terraform-aws-ha-ec2-alb
+  description: This repository consists of Terraform module for Highly Available EC2
+    Instance in AWS.
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-ha-ec2-alb
+- Name: terraform-aws-eks
+  description: This repository consists of Terraform module for EKS cluster in AWS.
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-eks
+- Name: terraform-aws-static-website-container
+  description: This repository consists of Terraform module for Static Website Hosting
+    in AWS.
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-static-website-container
+- Name: terraform-aws-route53-record-mapping
+  description: This repository consists of Terraform module for Route53 mapping in
+    AWS.
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-route53-record-mapping
+- Name: terraform-aws-vpc
+  description: This repository consists of Terraform module for VPC in AWS.
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-vpc
+- Name: terraform-aws-ec2-instance
+  description: This repository consists of Terraform module for EC2 Instance in AWS.
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-ec2-instance
+- Name: terraform-aws-alb_target_group
+  description: This repository consists of Terraform module for ALB Target Group in
+    AWS.
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-alb_target_group
+- Name: terraform-aws-route-table
+  description: Terraform module for route table
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-route-table
+- Name: terraform-aws-subnet
+  description: Module to manage subnets
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-subnet
+- Name: terraform-aws-nat-gateway
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-nat-gateway
+- Name: terraform-aws-alb
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-alb
+- Name: terraform-aws-vpc-peering
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-vpc-peering
+- Name: terraform-aws-cross-account
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-cross-account
+- Name: terraform-aws-elasticache-cluster
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-elasticache-cluster
+- Name: terraform-aws-secret-manager
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-secret-manager
+- Name: terraform-aws-sns
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-sns
+- Name: terraform-aws-sqs
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-sqs
+- Name: terraform-aws-elasticache
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-elasticache
+- Name: terraform-aws-rds
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-rds
+- Name: aws-xray-sdk-go-sample
+  description: Sample App for the X-Ray SDK for Go
+  repo: https://github.com/OT-CLOUD-KIT/aws-xray-sdk-go-sample
+- Name: terraform-aws-mariadb
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-mariadb
+- Name: terraform-aws-cloudtrail
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-cloudtrail
+- Name: terraform-aws-cloudfront
+  description: null
+  repo: https://github.com/OT-CLOUD-KIT/terraform-aws-cloudfront
+CONTAINER:
+- Name: redis
+  description: A production optimized redis docker image
+  repo: https://github.com/OT-CONTAINER-KIT/redis
+- Name: redis-operator
+  description: A golang based redis operator that will make/oversee Redis standalone/cluster
+    mode setup on top of the Kubernetes.
+  repo: https://github.com/OT-CONTAINER-KIT/redis-operator
+- Name: restic
+  description: Wrapper utility over restic for backup/restore
+  repo: https://github.com/OT-CONTAINER-KIT/restic
+- Name: mysqlbackup
+  description: Docker wrapper over opstree/restic to manage MySQL backup/restore
+  repo: https://github.com/OT-CONTAINER-KIT/mysqlbackup
+- Name: fasten-docker-build
+  description: A project showcasing how you can fasten docker build from 3 minute
+    to 4 second
+  repo: https://github.com/OT-CONTAINER-KIT/fasten-docker-build
+- Name: terraform
+  description: Docker image to run terraform
+  repo: https://github.com/OT-CONTAINER-KIT/terraform
+- Name: logging-operator
+  description: A golang based CRD operator to setup and manage logging stack
+  repo: https://github.com/OT-CONTAINER-KIT/logging-operator
+- Name: spinnaker-study
+  description: Simple Quarkus Microservice for CI/CD Demo
+  repo: https://github.com/OT-CONTAINER-KIT/spinnaker-study
+- Name: helm-templates
+  description: null
+  repo: https://github.com/OT-CONTAINER-KIT/helm-templates
+- Name: postgresql-backup
+  description: Docker wrapper over opstree/restic to manage PostgreSQL backup/restore
+  repo: https://github.com/OT-CONTAINER-KIT/postgresql-backup
+- Name: Working-with-Helm
+  description: null
+  repo: https://github.com/OT-CONTAINER-KIT/Working-with-Helm
+- Name: helm-charts
+  description: A repository which that will contain helm charts with best and security
+    practices.
+  repo: https://github.com/OT-CONTAINER-KIT/helm-charts
+- Name: k8s-secret-injector
+  description: k8s-secret-injector is a tool that can connect with multiple secret
+    managers to fetch the secrets
+  repo: https://github.com/OT-CONTAINER-KIT/k8s-secret-injector
+- Name: k8s-vault-webhook
+  description: A k8s vault webhook is a Kubernetes webhook that can inject secrets
+    into Kubernetes resources by connecting to multiple secret managers
+  repo: https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook
+- Name: stable-helm-charts
+  description: null
+  repo: https://github.com/OT-CONTAINER-KIT/stable-helm-charts
+- Name: future-development
+  description: null
+  repo: https://github.com/OT-CONTAINER-KIT/future-development
+- Name: zookeeper
+  description: null
+  repo: https://github.com/OT-CONTAINER-KIT/zookeeper
+- Name: mongodb-operator
+  description: A golang based operator to create and manage MongoDB standalone setup
+    and cluster setup
+  repo: https://github.com/OT-CONTAINER-KIT/mongodb-operator
+- Name: OT-DISTROLESS
+  description: null
+  repo: https://github.com/OT-CONTAINER-KIT/OT-DISTROLESS
+MONITORING:
+- Name: GrafanaDashboards
+  description: Repo containing various Grafana Dashboards
+  repo: https://github.com/OT-MONITORING-KIT/GrafanaDashboards
+OSM:
+- Name: usermanagement
+  description: null
+  repo: https://github.com/OT-OSM/usermanagement
+- Name: openvpn
+  description: null
+  repo: https://github.com/OT-OSM/openvpn
+- Name: prometheus
+  description: null
+  repo: https://github.com/OT-OSM/prometheus
+- Name: java
+  description: null
+  repo: https://github.com/OT-OSM/java
+- Name: grafana
+  description: Ansible role to manage Grafana
+  repo: https://github.com/OT-OSM/grafana
+- Name: prometheus-exporters
+  description: null
+  repo: https://github.com/OT-OSM/prometheus-exporters
+- Name: alertmanager
+  description: I am an ansible role for installing and configuring Alertmanager
+  repo: https://github.com/OT-OSM/alertmanager
+- Name: MySQL
+  description: I am an ansible role for installing and configuring MySQL Server
+  repo: https://github.com/OT-OSM/MySQL
+- Name: elasticsearch
+  description: null
+  repo: https://github.com/OT-OSM/elasticsearch
+- Name: elasticsearch_cluster
+  description: null
+  repo: https://github.com/OT-OSM/elasticsearch_cluster
+- Name: tomcat
+  description: Role to setup tomcat
+  repo: https://github.com/OT-OSM/tomcat
+- Name: sachet-telegram-integration
+  description: I am an ansible role for sachet telegram integration
+  repo: https://github.com/OT-OSM/sachet-telegram-integration
+- Name: jenkins
+  description: null
+  repo: https://github.com/OT-OSM/jenkins
+- Name: kafka_cluster
+  description: null
+  repo: https://github.com/OT-OSM/kafka_cluster
+- Name: linux_armour
+  description: This repository consist ansible role to harden the Linux platform with
+    Security Conmpliance.
+  repo: https://github.com/OT-OSM/linux_armour
+- Name: nexus
+  description: null
+  repo: https://github.com/OT-OSM/nexus
+- Name: haproxy
+  description: null
+  repo: https://github.com/OT-OSM/haproxy
+- Name: logstash
+  description: This repo consists of Ansible role for Logstash
+  repo: https://github.com/OT-OSM/logstash
+- Name: consul
+  description: Repository for consul role
+  repo: https://github.com/OT-OSM/consul
+- Name: keycloak
+  description: null
+  repo: https://github.com/OT-OSM/keycloak
+- Name: elastalert
+  description: null
+  repo: https://github.com/OT-OSM/elastalert
+- Name: cassandra
+  description: null
+  repo: https://github.com/OT-OSM/cassandra
+- Name: mongo
+  description: null
+  repo: https://github.com/OT-OSM/mongo
+- Name: galera
+  description: null
+  repo: https://github.com/OT-OSM/galera
+- Name: postgresql
+  description: null
+  repo: https://github.com/OT-OSM/postgresql
+- Name: redis
+  description: null
+  repo: https://github.com/OT-OSM/redis
+- Name: kibana
+  description: null
+  repo: https://github.com/OT-OSM/kibana
+- Name: nutanix-plugin
+  description: null
+  repo: https://github.com/OT-OSM/nutanix-plugin
+- Name: Percona-PostgreSQL
+  description: null
+  repo: https://github.com/OT-OSM/Percona-PostgreSQL

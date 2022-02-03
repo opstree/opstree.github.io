@@ -2,7 +2,7 @@ import os
 import requests as github
 import json, yaml
 
-SOURCE_YAML_DATA = '.idea/ot-git-details-source.yml'
+SOURCE_YAML_DATA = '../config/ot-git-details-source.yml'
 OUTPUT_YAML_DATA = 'ot-osc-repo-info.yml'
 
 
@@ -23,7 +23,6 @@ def _hit_github_api(api_url):
 
     # Convert the API result into json format
     repo_data = github_repo_link.json()
-    print(repo_data)
     return repo_data
 
 
@@ -76,7 +75,7 @@ def _generate_orgs_contribution_report(orgs_info):
 
 
 # Write the yaml file with the required data
-def _generate_git_contribution_report(source_type,github_username,output_data):
+def _generate_git_contribution_report(source_type,github_username,final_output_data):
         
         try:
             yaml_output = open('../'+ OUTPUT_YAML_DATA, mode='r').read()
@@ -84,7 +83,7 @@ def _generate_git_contribution_report(source_type,github_username,output_data):
                 raise FileNotFoundError("File not found")
             if yaml.safe_dump(final_output_data, default_flow_style=False) not in yaml_output:
                 with open('../'+ OUTPUT_YAML_DATA, 'a') as yaml_output:
-                    yaml_output.write(yaml.safe_dump(output_data, default_flow_style=False))
+                    yaml_output.write(yaml.safe_dump(final_output_data, default_flow_style=False))
             print(f"Yaml for {source_type} {github_username} has been generated")
 
         except FileNotFoundError:
@@ -92,7 +91,7 @@ def _generate_git_contribution_report(source_type,github_username,output_data):
             yaml_output = open('../'+ OUTPUT_YAML_DATA, mode='r').read()
             if yaml.safe_dump(final_output_data, default_flow_style=False) not in yaml_output:
                 with open('../'+ OUTPUT_YAML_DATA, 'a') as yaml_output:
-                    yaml_output.write(yaml.safe_dump(output_data, default_flow_style=False))
+                    yaml_output.write(yaml.safe_dump(final_output_data, default_flow_style=False))
             print(f"Yaml for {source_type} {github_username} has been generated")
 
 
