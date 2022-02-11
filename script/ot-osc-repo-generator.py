@@ -3,7 +3,7 @@ import requests as github
 import json,yaml
 from otfilesystemlibs import yaml_manager
 
-SOURCE_YAML_DATA = "../ot-git-details-source.yml"
+SOURCE_YAML_DATA = "../config/ot-git-details-source.yml"
 OUTPUT_YAML_DATA = 'ot-osc-repo-info.yml'
 yaml_loader = yaml_manager.getYamlLoader()
 
