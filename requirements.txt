@@ -1,0 +1,5 @@
+os
+json
+yaml
+requests
+git+https://github.com/OT-PYTHON-UTILS/ot-filesystem-libs.git@develop
