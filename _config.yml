@@ -228,7 +228,10 @@ cloud:
     description: Terraform module which provides a High Available and quick disaster recovery setup for EC2 in stance on AWS cloud.
     repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/ha-ec2-alb/aws
 
-
+  - icon_path: "static/rg.png"
+    name: "Terraform: Azure Resource Group"
+    description: Terraform module which creates Resource Group on Azure and This module will also give you option to add Lock Resource feature into your Resource Group.
+    repo_link: https://registry.terraform.io/modules/OT-terraform-azure-modules/resource-group/azure
 
 slide1_blogs:
   - blog_title: "What, Why and How of CTF Challenges?"
