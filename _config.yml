@@ -95,6 +95,56 @@ container:
     description: Backup utility written on top of Restic for MySQL Backup/restore
     repo_link: https://github.com/OT-CONTAINER-KIT/mysqlbackup
 
+  - icon_path: "static/helm.png"
+    name: Helm Charts
+    description: A repository which that will contain helm charts with best and security practices
+    repo_link: https://ot-container-kit.github.io/helm-charts
+
+  - icon_path: "static/docker_build.png"
+    name: Fasten Docker Build
+    description: A project showcasing how you can fasten docker build from 3 minute to 4 second
+    repo_link: https://github.com/OT-CONTAINER-KIT/fasten-docker-build
+
+  - icon_path: "static/spinnaker-study.png"
+    name: Spinnaker Study
+    description: Simple Quarkus Microservice for CI/CD Demo
+    repo_link: https://github.com/OT-CONTAINER-KIT/spinnaker-study
+
+  - icon_path: "static/postgresql_backup.png"
+    name: Postgresql Backup
+    description: Docker wrapper written on top of Restic to manage PostgreSQL backup/restore
+    repo_link: https://github.com/OT-CONTAINER-KIT/postgresql-backup
+
+  - icon_path: "static/k8s_secret_injector.png"
+    name: K8s Secret Injector
+    description: K8s Secret Injector is a tool that can connect with multiple secret managers to fetch the secrets
+    repo_link: https://github.com/OT-CONTAINER-KIT/k8s-secret-injector
+
+  - icon_path: "static/k8s_vault.png"
+    name: K8s Vault Webhook
+    description: A k8s vault webhook is a Kubernetes webhook that can inject secrets into Kubernetes resources by connecting to multiple secret managers
+    repo_link: https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook
+
+  - icon_path: "static/terraform_image.png"
+    name: Terraform Image
+    description: Docker image to run terraform
+    repo_link: https://github.com/OT-CONTAINER-KIT/terraform
+
+  - icon_path: "static/mongo_db.png"
+    name: Mongodb Operator
+    description: A golang based operator to create and manage MongoDB standalone setup and cluster setup
+    repo_link: https://github.com/OT-CONTAINER-KIT/mongodb-operator
+
+  - icon_path: "static/k8s_secret_injector.png"
+    name: K8s Utils Image
+    description: K8s Utils for various useful Kubernetes utilities
+    repo_link: https://github.com/OT-CONTAINER-KIT/k8s-utils
+
+  - icon_path: "static/logging.svg"
+    name: Logging Operator
+    description: A golang based operator to create and manage EFK (Elasticsearch, Fluentd, and Kibana) stack on Kubernetes
+    repo_link: https://github.com/OT-CONTAINER-KIT/logging-operator
+
 automation:
   - icon_path: "static/linux-logo.svg"
     name: "Ansible: Linux_armour"
@@ -170,6 +220,112 @@ automation:
     name: "Ansible: Sachet-telegram-integration"
     description: An ansible role to install and configure Sachet.
     repo_link: https://galaxy.ansible.com/opstree_devops/sachet-telegram-integration
+
+  - icon_path: "static/wazhu.png"
+    name: "Ansible: Wazuh Agent"
+    description: Ansible role to setup & manage Wazuh-Agent 
+    repo_link: https://github.com/OT-OSM/wazuh_agent
+
+  - icon_path: "static/consul.svg"
+    name: "Ansible: Consul"
+    description: Repository for consul role
+    repo_link: https://github.com/OT-OSM/consul
+
+  - icon_path: "static/wazhu.png"
+    name: "Ansible: Wazuh Manager"
+    description: Ansible role to configure wazuh manager standalone with slack integration
+    repo_link: https://github.com/OT-OSM/wazuh_manager
+
+  - icon_path: "static/opensearch.png"
+    name: "Ansible: Opensearch"
+    description: Ansible role to configure Opensearch standalone and cluster integration
+    repo_link: https://github.com/OT-OSM/opensearch
+
+  - icon_path: "static/mongo_db.png"
+    name: "Ansible: MongoDB"
+    description: MongoDB ansible role for Standalone , Cluster(Replication) setup with Authentication
+    repo_link: https://github.com/OT-OSM/mongo
+
+  - icon_path: "static/prometheus.png"
+    name: "Ansible: Alertmanager"
+    description: Ansible role for installing and configuring Alertmanager
+    repo_link: https://github.com/OT-OSM/alertmanager
+
+  - icon_path: "static/nginx.png"
+    name: "Ansible: Nginx"
+    description: An ansible role to install nginx
+    repo_link: https://github.com/OT-OSM/nginx
+
+  - icon_path: "static/systemManager.jpeg"
+    name: "Ansible: SystemManager"
+    description: An ansible role to manage System setup
+    repo_link: https://github.com/OT-OSM/SystemManager
+
+  - icon_path: "static/rabbitmq.png"
+    name: "Ansible: RabbitMq"
+    description: Ansible role to setup, manage RabbitMQ cluster/standalone
+    repo_link: https://github.com/OT-OSM/RabbitMQ
+
+  - icon_path: ""
+    name: "Ansible: Patch Mongo Role"
+    description: Ansible role that can Patch and reboot the Mongo Cluster for new kernel update.
+    repo_link: https://github.com/OT-OSM/mongo_kernel_patching
+
+  - icon_path: "static/mongo_patch.png"
+    name: "Ansible: Percona"
+    description: Ansible role to setup Percona server version 5.7 or greater
+    repo_link: https://github.com/OT-OSM/percona_server
+
+  - icon_path: "static/percona.jpg"
+    name: "Ansible: Percona Postgres"
+    description: Ansible role to setup standalone or a cluster Percona Postgres with version support 11 and above
+    repo_link: https://github.com/OT-OSM/Percona-PostgreSQL
+
+  - icon_path: "static/nutanix.png"
+    name: "Ansible: Nutanix Plugin"
+    description: Ansible plugin extension for Nutanix cloud management
+    repo_link: https://github.com/OT-OSM/nutanix-plugin
+
+  - icon_path: "static/elastalert.webp"
+    name: "Ansible: ElastAlert"
+    description: Ansible role Install and setup elastalert along with relative alert configuration defined by user
+    repo_link: https://github.com/OT-OSM/elastalert
+
+  - icon_path: "static/logstash.png"
+    name: "Ansible: Logstash"
+    description: An Ansible Role to install and configure Logstash
+    repo_link: https://github.com/OT-OSM/logstash
+
+  - icon_path: "static/kibana.png"
+    name: "Ansible: Kibana"
+    description: Ansible role to install and configuring kibana
+    repo_link: https://github.com/OT-OSM/kibana
+
+  - icon_path: "static/redis.png"
+    name: "Ansible: Redis"
+    description: Ansible role to setup standalone or a cluster Redis
+    repo_link: https://github.com/OT-OSM/redis
+
+  - icon_path: "static/postgresql_backup.png"
+    name: "Ansible: Postgresql"
+    description: Ansible role to install postgreSQL with version 9.5 and above and support basic functionalities like creating database and users
+    repo_link: https://github.com/OT-OSM/postgresql
+
+  - icon_path: "static/galera-logo.svg"
+    name: "Ansible: Galera"
+    description: Ansible role to install and configure a Galera Cluster with Mysql 5.7 on Debian and Redhat servers
+    repo_link: https://github.com/OT-OSM/galera
+
+  - icon_path: "static/apache_cassandra.png"
+    name: "Ansible: Cassandra"
+    description: Ansible role to install cassandra cluster & standalone cassandra
+    repo_link: https://github.com/OT-OSM/cassandra
+
+  - icon_path: "static/keycloak_logo.png"
+    name: "Ansible: Keycloak"
+    description: An ansible role to install and configure Keycloak server
+    repo_link: https://github.com/OT-OSM/keycloak
+
 
 database:
   - icon_path: "static/druid-exporter.svg"
