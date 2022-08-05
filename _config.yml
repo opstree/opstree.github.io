@@ -224,7 +224,7 @@ automation:
 
   - icon_path: "static/wazhu.png"
     name: "Ansible: Wazuh Agent"
-    description: Ansible role to setup & manage Wazuh-Agent 
+    description: Ansible role to setup & manage Wazuh-Agent
     repo_link: https://github.com/OT-OSM/wazuh_agent
 
   - icon_path: "static/consul.svg"
@@ -267,12 +267,12 @@ automation:
     description: Ansible role to setup, manage RabbitMQ cluster/standalone
     repo_link: https://github.com/OT-OSM/RabbitMQ
 
-  - icon_path: ""
+  - icon_path: "static/mongo_patch.png"
     name: "Ansible: Patch Mongo Role"
     description: Ansible role that can Patch and reboot the Mongo Cluster for new kernel update.
     repo_link: https://github.com/OT-OSM/mongo_kernel_patching
 
-  - icon_path: "static/mongo_patch.png"
+  - icon_path: "static/percona.png"
     name: "Ansible: Percona"
     description: Ansible role to setup Percona server version 5.7 or greater
     repo_link: https://github.com/OT-OSM/percona_server
