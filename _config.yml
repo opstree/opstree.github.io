@@ -224,7 +224,7 @@ automation:
 
   - icon_path: "static/wazhu.png"
     name: "Ansible: Wazuh Agent"
-    description: Ansible role to setup & manage Wazuh-Agent 
+    description: Ansible role to setup & manage Wazuh-Agent
     repo_link: https://github.com/OT-OSM/wazuh_agent
 
   - icon_path: "static/consul.svg"
@@ -267,12 +267,12 @@ automation:
     description: Ansible role to setup, manage RabbitMQ cluster/standalone
     repo_link: https://github.com/OT-OSM/RabbitMQ
 
-  - icon_path: ""
+  - icon_path: "static/mongo_patch.png"
     name: "Ansible: Patch Mongo Role"
     description: Ansible role that can Patch and reboot the Mongo Cluster for new kernel update.
     repo_link: https://github.com/OT-OSM/mongo_kernel_patching
 
-  - icon_path: "static/mongo_patch.png"
+  - icon_path: "static/percona.png"
     name: "Ansible: Percona"
     description: Ansible role to setup Percona server version 5.7 or greater
     repo_link: https://github.com/OT-OSM/percona_server
@@ -385,6 +385,116 @@ cloud:
     description: Terraform module which provides a High Available and quick disaster recovery setup for EC2 in stance on AWS cloud.
     repo_link: https://registry.terraform.io/modules/OT-CLOUD-KIT/ha-ec2-alb/aws
 
+  - icon_path: "static/gcp_iam.png"
+    name: "Terraform: GCP IAM"
+    description:  Terraform module which create iam resources and bind roles
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-gcp-iam
+
+  - icon_path: "static/gcp_storage.jpg"
+    name: "Terraform: GCP cloud Storage"
+    description: Terraform module which create storage buckets
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-gcp-storage
+
+  - icon_path: "static/aws_eks.png"
+    name: "Terraform: EKS"
+    description: Terraform module will create a EKS Cluster
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-eks
+
+  - icon_path: "static/gcp_redis.png"
+    name: "Terraform: GCP Memorystore Redis Cluster"
+    description: Terraform module which create a complete GCP memorystore redis cluster setup
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-gcp-redis
+
+
+  - icon_path: "static/aws_cloudtrail.png"
+    name: "Terraform: AWS Cloudtrail"
+    description: Terraform module which configures Cloudtrail on AWS.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-cloudtrail
+
+  - icon_path: "static/aws_ec2.png"
+    name: "Terraform: AWS EC2 Instance"
+    description: Terraform module which creates EC2 Instance on AWS
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-ec2-instance
+
+  - icon_path: "static/aws_cloudfront.jpg"
+    name: "Terraform: Cloudfront"
+    description:  Terraform module will create a complete Cloudfront setup
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-cloudfront
+
+  - icon_path: "static/aws_routetable.png"
+    name: "Terraform: AWS Route Table"
+    description: Terraform module which creates route table on AWS.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-route-table
+
+  - icon_path: "static/aws_alb.png"
+    name: "Terraform: AWS ALB"
+    description: Terraform module which will manage ALB
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-alb
+
+  - icon_path: "static/mssql.png"
+    name: "Terraform: MSSQL"
+    description: Terraform module which creates a MSSQL Instance, Subnet group and complete database setup
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-rds-mssql
+
+  - icon_path: "static/mariadb.png"
+    name: "Terraform: AWS RDS MariaDB"
+    description: Terraform module which creates Master Slave Replication MariaDB on AWS
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-mariadb
+
+  - icon_path: "static/amazon_rds.png"
+    name: "Terraform: AWS RDS"
+    description: Terraform module which create and setup the AWS RDS
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-rds
+
+  - icon_path: "static/elastic_cache.png"
+    name: "Terraform: ElastiCache Redis Cluster"
+    description: Terraform module which creates a complete ElastiCache cluster setup
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-elasticache
+
+  - icon_path: "static/aws_sqs.png"
+    name: "Terraform: AWS SQS"
+    description: Terraform module which creates a AWS SQS
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-sqs
+
+  - icon_path: "static/aws_sns.jpg"
+    name:  "Terraform: AWS SNS Topic & Subscription"
+    description: Terraform module which creates SNS topic & subscription on AWS
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-sns
+
+  - icon_path: "static/aws_secret_manager.png"
+    name: "Terraform: AWS Secret Manager"
+    description: Terraform module which creates Secret Manager Secrets on AWS
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-secret-manager
+
+  - icon_path: "static/aws_elastic_cache.png"
+    name: "Terraform: ElastiCache Cluster"
+    description: Terraform module which create a complete ElastiCache cluster setup
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-elasticache-cluster
+
+  - icon_path: "static/aws_iam.png"
+    name: "Terraform: AWS Cross Account IAM Role"
+    description: Terraform module which creates IAM role in target account
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-cross-account
+
+  - icon_path: "static/aws_vpc.png"
+    name: "Terraform: AWS Vpc Peering"
+    description: Terraform module which setup the AWS VPC Peering Service with in & cross region
+    repo_link:  https://github.com/OT-CLOUD-KIT/terraform-aws-vpc-peering
+
+  - icon_path: "static/aws_alb.png"
+    name: "Terraform: AWS LB Target Group"
+    description: Terraform module which creates lb target group on AWS
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-alb_target_group
+
+  - icon_path: "static/aws_route53.png"
+    name: "Terraform: AWS Route53 Records Mapping"
+    description: Terraform module which creates Route53 Records mapping module on AWS
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-route53-record-mapping
+
+  - icon_path: "static/aws_xray.png"
+    name: "AWS X-Ray Go SDK"
+    description: Tracing use case of AWS X-Ray Go SDK
+    repo_link: https://github.com/OT-CLOUD-KIT/aws-xray-sdk-go-sample
 
 
 slide1_blogs:
