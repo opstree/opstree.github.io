@@ -110,7 +110,7 @@ container:
     description: Simple Quarkus Microservice for CI/CD Demo
     repo_link: https://github.com/OT-CONTAINER-KIT/spinnaker-study
 
-  - icon_path: "static/postgresql_backup.png"
+  - icon_path: "static/postgresql_backup.svg"
     name: Postgresql Backup
     description: Docker wrapper written on top of Restic to manage PostgreSQL backup/restore
     repo_link: https://github.com/OT-CONTAINER-KIT/postgresql-backup
@@ -131,7 +131,7 @@ container:
     description: Docker image to run terraform
     repo_link: https://github.com/OT-CONTAINER-KIT/terraform
 
-  - icon_path: "static/mongo_db.png"
+  - icon_path: "static/mongo_db.svg"
     name: Mongodb Operator
     description: A golang based operator to create and manage MongoDB standalone setup and cluster setup
     repo_link: https://github.com/OT-CONTAINER-KIT/mongodb-operator
@@ -272,7 +272,7 @@ automation:
     description: Ansible role that can Patch and reboot the Mongo Cluster for new kernel update.
     repo_link: https://github.com/OT-OSM/mongo_kernel_patching
 
-  - icon_path: "static/percona.png"
+  - icon_path: "static/percona.jpg"
     name: "Ansible: Percona"
     description: Ansible role to setup Percona server version 5.7 or greater
     repo_link: https://github.com/OT-OSM/percona_server
