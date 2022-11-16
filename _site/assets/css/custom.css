@@ -56,6 +56,11 @@ body { font-family: 'Mukta' !important; font-weight: 400; font-size: 1.6rem; lin
   line-height: 1.2;
   font-weight: 500;
 }
+.font-10 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: 450;
+}
 .navbar-dark .navbar-nav .nav-link {
   color: #fff !important;
   font-family: 'Inter' !important;
