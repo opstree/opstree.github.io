@@ -1,0 +1,73 @@
+---
+opensource_projects:
+  - name: Redis Operator
+    logo: redis-operator-logo.svg
+    description: >
+      A golang based redis operator that will create 
+      and oversee Redis setup on top of the Kubernetes.
+    repo_link: https://github.com/OT-CONTAINER-KIT/redis-operator
+    documentation: https://ot-redis-operator.netlify.app/
+    technology: container
+
+  - name: Logging Operator
+    logo: logging-operator.svg
+    description: >
+      A golang operator to create and manage EFK 
+      (Elasticsearch, Fluentd, and Kibana) stack on Kubernetes.
+    repo_link: https://github.com/OT-CONTAINER-KIT/logging-operator
+    documentation: https://ot-logging-operator.netlify.app/
+    technology: container
+
+  - name: Dynamic PV Scaler
+    logo: dynamic-pv-scaler.svg
+    description: >
+      A golang based application that can scale 
+      persistent volume dynamically in Kubernetes cluster.
+    repo_link: https://github.com/opstree/dynamic-pv-scaler
+    documentation: https://github.com/opstree/dynamic-pv-scaler
+    technology: container
+
+  - name: K8s Vault Webhook
+    logo: k8s-vault-webhook.svg
+    description: >
+      A golang based webhook that can inject secrets 
+      into Kubernetes resources from secret managers.
+    repo_link: https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook
+    documentation: https://ot-container-kit.github.io/k8s-vault-webhook/
+    technology: container
+
+  - name: MongoDB Operator
+    logo: mongodb-operator.svg
+    description: >
+      A golang based operator to create and manage MongoDB 
+      standalone setup and cluster setup.
+    repo_link: https://github.com/OT-CONTAINER-KIT/mongodb-operator
+    documentation: https://ot-mongodb-operator.netlify.app/
+    technology: container
+
+  - name: Helm Charts
+    logo: helm-chart-logo.svg
+    description: >
+      A repository which that will contain helm charts with 
+      best and security practices.
+    repo_link: https://github.com/OT-CONTAINER-KIT/helm-charts
+    documentation: https://ot-container-kit.github.io/helm-charts
+    technology: container
+
+  - name: Redis
+    logo: redis-operator-logo.svg
+    description: >
+      A production optimized redis docker image to setup redis on
+      any container platform.
+    repo_link: https://github.com/OT-CONTAINER-KIT/redis
+    documentation: https://github.com/OT-CONTAINER-KIT/redis
+    technology: container
+
+  - name: K8s Utils
+    logo: kubernetes.svg
+    description: >
+      A repository for various useful Kubernetes utilities in
+      different programming languages.
+    repo_link: https://github.com/OT-CONTAINER-KIT/k8s-utils
+    documentation: https://github.com/OT-CONTAINER-KIT/k8s-utils
+    technology: container

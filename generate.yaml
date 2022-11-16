@@ -1,0 +1,12 @@
+---
+- name: Populating projects variables in HTML
+  hosts: localhost
+  connection: local
+  vars_files:
+    - data/container.yaml
+#    - data/monitoring.yaml
+  tasks:
+    - name: Creating project HTML page from template
+      template:
+        src: templates/project.html.j2
+        dest: _site/projects.html
