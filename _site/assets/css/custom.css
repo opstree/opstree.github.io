@@ -125,7 +125,7 @@ body { font-family: 'Mukta' !important; font-weight: 400; font-size: 1.6rem; lin
   font-size: 19px;
 }
 .tab-wrap ul.nav.nav-pills li a {
-  color: #000;
+  color: #3970e4;
   text-decoration: none;
 }
 .tab-wrap ul.nav.nav-pills li.active {
@@ -152,6 +152,10 @@ body { font-family: 'Mukta' !important; font-weight: 400; font-size: 1.6rem; lin
   box-shadow: -2px 0px 3px #ddd, 2px 1px 4px #ddd;
   border-radius: 7px;
   margin: 1%;
+}
+.card-wrap-inner:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 .cards-title {
   font-size: 20px;
@@ -186,13 +190,13 @@ body { font-family: 'Mukta' !important; font-weight: 400; font-size: 1.6rem; lin
 
 .nav-pills .nav-link.active{
   color: #fff;
-    background-color: #212529 !important;
+    background-color: #3970e4 !important;
     padding: 25px 50px 25px 50px !important;
 
     border-radius: 40px;
 }
 .cards-img {
-  min-height: 85px;
+  min-height: 35px;
 }
 
 .tab-content p{
@@ -207,4 +211,19 @@ body { font-family: 'Mukta' !important; font-weight: 400; font-size: 1.6rem; lin
 
 .text-blue-custom {
   color: #3970e4
+}
+
+.language-bubble {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    margin-right: 0.375rem;
+    display: inline-block;
+}
+
+.language-text {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
 }
