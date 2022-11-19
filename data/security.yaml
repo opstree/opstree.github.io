@@ -1,0 +1,10 @@
+security_projects:
+  - name: Linux Baseline
+    logo: chef.svg
+    description: >
+      A Linux Automation primarily built from scratch by 
+      opstree security to execute Linux checks from all platform.
+    repo_link: https://github.com/opstree-security/linux-baseline
+    documentation: https://github.com/opstree-security/linux-baseline
+    repo_name: linux-baseline
+    language: Ruby

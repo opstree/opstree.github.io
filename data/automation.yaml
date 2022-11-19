@@ -1,0 +1,215 @@
+automation_projects:
+  - name: OpenVPN
+    logo: openvpn.svg
+    description: >
+      An ansible role to install and configure OpenVPN server 
+      with production and security best-practices.
+    repo_link: https://github.com/OT-OSM/openvpn
+    documentation: https://github.com/OT-OSM/openvpn
+    repo_name: openvpn
+    language: YAML
+
+  - name: Jenkins
+    logo: jenkins.svg
+    description: >
+      An ansible role to install and configure jenkins 
+      server with plugins configuration.
+    repo_link: https://github.com/OT-OSM/jenkins
+    documentation: https://github.com/OT-OSM/jenkins
+    repo_name: jenkins
+    language: YAML
+
+  - name: MySQL
+    logo: mysql.svg
+    description: >
+      A high end ansible role to setup standalone or a 
+      cluster MySQL with best practices in terms of 
+      security and performance tuning.
+    repo_link: https://github.com/OT-OSM/MySQL
+    documentation: https://github.com/OT-OSM/MySQL
+    repo_name: MySQL
+    language: YAML
+
+  - name: Prometheus Exporters
+    logo: prometheus.svg
+    description: >
+      An ansible role which contains multiple exporters of prometheus 
+      for scrapping data and for enhancing your monitoring stack.
+    repo_link: https://github.com/OT-OSM/prometheus-exporters
+    documentation: https://github.com/OT-OSM/prometheus-exporters
+    repo_name: prometheus-exporters
+    language: YAML
+
+  - name: Consul
+    logo: consul.svg
+    description: >
+      An ansible role to setup consul cluster with end to end
+      automation.
+    repo_link: https://github.com/OT-OSM/consul
+    documentation: https://github.com/OT-OSM/consul
+    repo_name: consul
+    language: YAML
+
+  - name: Usermanagement
+    logo: usermanagement.svg
+    description: >
+      An ansible role for user-management in Linux platforms, 
+      It can manage users, their properties with complete automation.
+    repo_link: https://github.com/OT-OSM/usermanagement
+    documentation: https://github.com/OT-OSM/usermanagement
+    repo_name: usermanagement
+    language: YAML
+
+  - name: Wazuh Agent
+    logo: wazuh.png
+    description: >
+      An ansible role to setup and manage Wazuh agent 
+      with the production best-practices.
+    repo_link: https://github.com/OT-OSM/wazuh_agent
+    documentation: https://github.com/OT-OSM/wazuh_agent
+    repo_name: wazuh_agent
+    language: YAML
+
+  - name: Elasticsearch
+    logo: elasticsearch.svg
+    description: >
+      An ansible role to setup and manage Elasticsearch 
+      standalone and cluster installation.
+    repo_link: https://github.com/OT-OSM/elasticsearch_cluster
+    documentation: https://github.com/OT-OSM/elasticsearch_cluster
+    repo_name: elasticsearch_cluster
+    language: YAML
+
+  - name: Wazuh Manager
+    logo: wazuh.png
+    description: >
+      An ansible role to setup and manage Wazuh manager 
+      with the production best-practices.
+    repo_link: https://github.com/OT-OSM/wazuh_manager
+    documentation: https://github.com/OT-OSM/wazuh_manager
+    repo_name: wazuh_manager
+    language: YAML
+
+  - name: Opensearch
+    logo: opensearch.svg
+    description: >
+      An ansible role to setup and manage Opensearch 
+      standalone and cluster installation.
+    repo_link: https://github.com/OT-OSM/opensearch
+    documentation: https://github.com/OT-OSM/opensearch
+    repo_name: opensearch
+    language: YAML
+
+  - name: AlertManager
+    logo: prometheus.svg
+    description: >
+      An ansible role to setup and manage AlertManager 
+      for alerting using Prometheus.
+    repo_link: https://github.com/OT-OSM/alertmanager
+    documentation: https://github.com/OT-OSM/alertmanager
+    repo_name: alertmanager
+    language: YAML
+
+  - name: MongoDB
+    logo: mongo.svg
+    description: >
+      MongoDB ansible role for Standalone , 
+      Cluster(Replication) setup with Security practices.
+    repo_link: https://github.com/OT-OSM/mongo
+    documentation: https://github.com/OT-OSM/mongo
+    repo_name: mongo
+    language: YAML
+
+  - name: Prometheus
+    logo: prometheus.svg
+    description: >
+      An ansible role to setup and manage Prometheus 
+      to monitor the complete ecosystem.
+    repo_link: https://github.com/OT-OSM/prometheus
+    documentation: https://github.com/OT-OSM/prometheus
+    repo_name: prometheus
+    language: YAML
+
+  - name: Nginx
+    logo: nginx.svg
+    description: >
+      An ansible role to install nginx. We are 
+      using nginx hardening as well in this role.
+    repo_link: https://github.com/OT-OSM/nginx
+    documentation: https://github.com/OT-OSM/nginx
+    repo_name: nginx
+    language: YAML
+
+  - name: RabbitMQ
+    logo: rabbitmq.svg
+    description: >
+      Ansible role to create, setup and manage 
+      RabbitMQ cluster/standalone.
+    repo_link: https://github.com/OT-OSM/RabbitMQ
+    documentation: https://github.com/OT-OSM/RabbitMQ
+    repo_name: RabbitMQ
+    language: YAML
+
+  - name: Kafka Cluster
+    logo: kafka.svg
+    description: >
+      A high end ansible role which will setup kafka and 
+      zookeeper cluster with end-to-end automation.
+    repo_link: https://github.com/OT-OSM/kafka_cluster
+    documentation: https://github.com/OT-OSM/kafka_cluster
+    repo_name: kafka_cluster
+    language: YAML
+
+  - name: Percona Cluster
+    logo: percona.svg
+    description: >
+      A high end ansible role to setup Percona server version
+      5.7 or greater with best practices in terms of security and
+      performance tuning.
+    repo_link: https://github.com/OT-OSM/percona_server
+    documentation: https://github.com/OT-OSM/percona_server
+    repo_name: percona_server
+    language: YAML
+
+  - name: Linux Armour
+    logo: chef.svg
+    description: >
+      A ansible roles deals with auditing implementation on 
+      Ubuntu according to CIS benchmark.
+    repo_link: https://github.com/OT-OSM/linux_armour
+    documentation: https://github.com/OT-OSM/linux_armour
+    repo_name: linux_armour
+    language: YAML
+
+  - name: Grafana
+    logo: grafana.svg
+    description: >
+      Grafana is an opensource tool for metrics visualization of 
+      some services like elasticsearch, prometheus, cloudwatch and 
+      many others. This role is written for prometheus as a datasource.
+    repo_link: https://github.com/OT-OSM/grafana
+    documentation: https://github.com/OT-OSM/grafana
+    repo_name: grafana
+    language: YAML
+
+  - name: Redis
+    logo: redis.svg
+    description: >
+      A high end ansible role to setup standalone or a 
+      cluster Redis with best practices in terms of security 
+      and performance tuning.
+    repo_link: https://github.com/OT-OSM/redis
+    documentation: https://github.com/OT-OSM/redis
+    repo_name: redis
+    language: YAML
+
+  - name: PostgreSQL
+    logo: postgresql.svg
+    description: >
+      This role can be used to install PostgreSQL with version 9.5 and above. 
+      This role is customizable, it support basic functionalities like creating 
+      database and users. Users can modify the role as per there requirements.
+    repo_link: https://github.com/OT-OSM/postgresql
+    documentation: https://github.com/OT-OSM/postgresql
+    repo_name: postgresql
+    language: YAML

@@ -4,9 +4,12 @@
   connection: local
   vars_files:
     - data/container.yaml
-#    - data/monitoring.yaml
+    - data/automation.yaml
+    - data/cloud.yaml
+    - data/monitoring.yaml
+    - data/security.yaml
   tasks:
     - name: Creating project HTML page from template
       template:
-        src: templates/project.html.j2
+        src: templates/project.html
         dest: _site/projects.html

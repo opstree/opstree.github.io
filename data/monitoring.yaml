@@ -1,0 +1,10 @@
+monitoring_projects:
+  - name: Grafana Dashboards
+    logo: grafana.svg
+    description: >
+      A repository for various opensource Grafana Dashboards
+      for different metrics and software.
+    repo_link: https://github.com/OT-MONITORING-KIT/GrafanaDashboards
+    documentation: https://github.com/OT-MONITORING-KIT/GrafanaDashboards
+    repo_name: GrafanaDashboards
+    language: JSON

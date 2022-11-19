@@ -1,0 +1,10 @@
+cloud_projects:
+  - name: Terraform AWS HA EC2 ALB
+    logo: terraform.svg
+    description: >
+      To create a Highly available setup of an EC2 instance 
+      with quick disaster recovery.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-ha-ec2-alb
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-ha-ec2-alb
+    repo_name: terraform-aws-ha-ec2-alb
+    language: HCL

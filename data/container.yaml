@@ -1,5 +1,5 @@
 ---
-opensource_projects:
+container_projects:
   - name: Redis Operator
     logo: redis-operator-logo.svg
     description: >
@@ -7,7 +7,8 @@ opensource_projects:
       and oversee Redis setup on top of the Kubernetes.
     repo_link: https://github.com/OT-CONTAINER-KIT/redis-operator
     documentation: https://ot-redis-operator.netlify.app/
-    technology: container
+    repo_name: redis-operator
+    language: Go
 
   - name: Logging Operator
     logo: logging-operator.svg
@@ -17,6 +18,8 @@ opensource_projects:
     repo_link: https://github.com/OT-CONTAINER-KIT/logging-operator
     documentation: https://ot-logging-operator.netlify.app/
     technology: container
+    repo_name: logging-operator
+    language: Go
 
   - name: Dynamic PV Scaler
     logo: dynamic-pv-scaler.svg
@@ -24,8 +27,10 @@ opensource_projects:
       A golang based application that can scale 
       persistent volume dynamically in Kubernetes cluster.
     repo_link: https://github.com/opstree/dynamic-pv-scaler
-    documentation: https://github.com/opstree/dynamic-pv-scaler
+    documentation: https://github.com/opstree/k8s-vault-webhook
     technology: container
+    repo_name: k8s-vault-webhook
+    language: Go
 
   - name: K8s Vault Webhook
     logo: k8s-vault-webhook.svg
@@ -35,6 +40,8 @@ opensource_projects:
     repo_link: https://github.com/OT-CONTAINER-KIT/k8s-vault-webhook
     documentation: https://ot-container-kit.github.io/k8s-vault-webhook/
     technology: container
+    repo_name: k8s-vault-webhook
+    language: Go
 
   - name: MongoDB Operator
     logo: mongodb-operator.svg
@@ -44,6 +51,8 @@ opensource_projects:
     repo_link: https://github.com/OT-CONTAINER-KIT/mongodb-operator
     documentation: https://ot-mongodb-operator.netlify.app/
     technology: container
+    repo_name: redis-operator
+    language: Go
 
   - name: Helm Charts
     logo: helm-chart-logo.svg
@@ -53,6 +62,8 @@ opensource_projects:
     repo_link: https://github.com/OT-CONTAINER-KIT/helm-charts
     documentation: https://ot-container-kit.github.io/helm-charts
     technology: container
+    repo_name: helm-charts
+    language: YAML
 
   - name: Redis
     logo: redis-operator-logo.svg
@@ -62,6 +73,8 @@ opensource_projects:
     repo_link: https://github.com/OT-CONTAINER-KIT/redis
     documentation: https://github.com/OT-CONTAINER-KIT/redis
     technology: container
+    repo_name: redis
+    language: Docker
 
   - name: K8s Utils
     logo: kubernetes.svg
@@ -71,3 +84,5 @@ opensource_projects:
     repo_link: https://github.com/OT-CONTAINER-KIT/k8s-utils
     documentation: https://github.com/OT-CONTAINER-KIT/k8s-utils
     technology: container
+    repo_name: k8s-utils
+    language: Python

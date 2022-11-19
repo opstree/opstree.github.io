@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/main-res.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- font icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+    .card-wrap-inner {
+
+    }
+    </style>
+</head>
+<body>
+<div class="container p-2">
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="navbar-brand ps-5 p-2">
+            <a href="./index.html"><img src="./static/logo.png" alt="..."></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-blue-custom fw-bold" href="https://www.opstree.com/" target="_blank">Website</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-blue-custom fw-bold" href="https://blog.opstree.com/" target="_blank">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-blue-custom fw-bold" href="/projects/" target="_blank">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/opstree"><img src="static/github.svg" class="img-fluid" width="32" height="32"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="banner" id="home">
+    <div class="home-banner__info">
+        <img src="static/opstree-opensource.svg" width="620" height="350">
+        <div class="share-wrap">
+            <ul>
+                <li><a href="https://www.facebook.com/opstree" target="_blank"> <img src="./static/facebook.svg" alt="" height="32" width="32"> </a></li>
+                <li><a href="https://twitter.com/opstreedevops" target="_blank"> <img src="./static/twitter.svg" alt="" height="32" width="32"> </a></li>
+                <li><a href="https://www.linkedin.com/company/opstree-solutions/" target="_blank"> <img src="./static/linkedin.svg" alt="" height="32" width="32"> </a></li>
+                <li><a href="https://github.com/OpsTree" target="_blank"> <img src="static/github.svg" alt="" height="32" width="32"> </a></li>
+                <li><a href="mailto:opensource@opstree.com" target="_blank"> <img src="./static/mail.svg" alt="" height="32" width="32"> </a></li>
+                <li><a href="https://join.slack.com/t/opstree/shared_invite/zt-3o8jp35x-UGMU2Cy0WSBk3Lbzqa2wVw" target="_blank"> <img src="./static/slack.svg" alt="" height="32" width="32"> </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="tab-wrap">
+    <div class="container">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-container"
+                        aria-selected="true">Container</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-automation"
+                        aria-selected="false">Automation</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-cloud"
+                        aria-selected="false">Cloud</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-monitoring-tab" data-bs-toggle="pill" data-bs-target="#pills-monitoring"
+                        aria-selected="false">Monitoring</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-security-tab" data-bs-toggle="pill" data-bs-target="#pills-security"
+                        aria-selected="false">Security</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-learning-tab" data-bs-toggle="pill" data-bs-target="#pills-learning"
+                        aria-selected="false">Learning</button>
+            </li>
+        </ul>
+        <!-- Container start -->
+        <div class="tab-content" id="pills-tabContent">
+            <!-- Container Tab  -->
+            <div class="tab-pane fade show active" id="pills-container" role="tabpanel" aria-labelledby="pills-home-tab">
+                <p>Include automation and utilities for different container technologies.
+                The primary container development focuses on developing Kubernetes operators,
+                helm charts, Docker images, and various programming utilities.</p>
+                <div class="card-wrap">
+                                      <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/redis-operator-logo.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Redis Operator</span>
+                        </div>
+                        <div class="cards-dis">A golang based redis operator that will create  and oversee Redis setup on top of the Kubernetes.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://ot-redis-operator.netlify.app/">https://ot-redis-operator.netlify.app//</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-container-kit&repo=redis-operator&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                      <span class="language-bubble" style="background-color: #00ADD8"></span>
+                            <span class="language-text color-text-secondary">Go</span>
+                        </div>
+                    </div>
+                                      <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/logging-operator.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Logging Operator</span>
+                        </div>
+                        <div class="cards-dis">A golang operator to create and manage EFK  (Elasticsearch, Fluentd, and Kibana) stack on Kubernetes.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://ot-logging-operator.netlify.app/">https://ot-logging-operator.netlify.app//</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-container-kit&repo=logging-operator&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                      <span class="language-bubble" style="background-color: #00ADD8"></span>
+                            <span class="language-text color-text-secondary">Go</span>
+                        </div>
+                    </div>
+                                      <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/dynamic-pv-scaler.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Dynamic PV Scaler</span>
+                        </div>
+                        <div class="cards-dis">A golang based application that can scale  persistent volume dynamically in Kubernetes cluster.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/opstree/k8s-vault-webhook">https://github.com/opstree/k8s-vault-webhook/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-container-kit&repo=k8s-vault-webhook&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                      <span class="language-bubble" style="background-color: #00ADD8"></span>
+                            <span class="language-text color-text-secondary">Go</span>
+                        </div>
+                    </div>
+                                      <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/k8s-vault-webhook.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">K8s Vault Webhook</span>
+                        </div>
+                        <div class="cards-dis">A golang based webhook that can inject secrets  into Kubernetes resources from secret managers.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://ot-container-kit.github.io/k8s-vault-webhook/">https://ot-container-kit.github.io/k8s-vault-webhook//</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-container-kit&repo=k8s-vault-webhook&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                      <span class="language-bubble" style="background-color: #00ADD8"></span>
+                            <span class="language-text color-text-secondary">Go</span>
+                        </div>
+                    </div>
+                                      <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/mongodb-operator.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">MongoDB Operator</span>
+                        </div>
+                        <div class="cards-dis">A golang based operator to create and manage MongoDB  standalone setup and cluster setup.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://ot-mongodb-operator.netlify.app/">https://ot-mongodb-operator.netlify.app//</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-container-kit&repo=redis-operator&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                      <span class="language-bubble" style="background-color: #00ADD8"></span>
+                            <span class="language-text color-text-secondary">Go</span>
+                        </div>
+                    </div>
+                                      <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/helm-chart-logo.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Helm Charts</span>
+                        </div>
+                        <div class="cards-dis">A repository which that will contain helm charts with  best and security practices.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://ot-container-kit.github.io/helm-charts">https://ot-container-kit.github.io/helm-charts/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-container-kit&repo=helm-charts&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                      <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                      <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/redis-operator-logo.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Redis</span>
+                        </div>
+                        <div class="cards-dis">A production optimized redis docker image to setup redis on any container platform.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-CONTAINER-KIT/redis">https://github.com/OT-CONTAINER-KIT/redis/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-container-kit&repo=redis&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                      <span class="language-bubble" style="background-color: #00008B"></span>
+                            <span class="language-text color-text-secondary">Docker</span>
+                        </div>
+                    </div>
+                                      <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/kubernetes.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">K8s Utils</span>
+                        </div>
+                        <div class="cards-dis">A repository for various useful Kubernetes utilities in different programming languages.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-CONTAINER-KIT/k8s-utils">https://github.com/OT-CONTAINER-KIT/k8s-utils/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-container-kit&repo=k8s-utils&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                      <span class="language-bubble" style="background-color: #3572A5"></span>
+                            <span class="language-text color-text-secondary">Python</span>
+                        </div>
+                    </div>
+                                  </div>
+            </div>
+            <!-- end container -->
+            <!-- Automation Tab  -->
+            <div class="tab-pane fade show" id="pills-automation" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <p>Includes automation for setting up different software and utilities. Generally,
+                    automation is done via ansible and provides security best practices and test cases.
+                    Majorly development areas are Roles, Playbooks, and Plugins.</p>
+                <div class="card-wrap">
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/openvpn.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">OpenVPN</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to install and configure OpenVPN server  with production and security best-practices.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/openvpn">https://github.com/OT-OSM/openvpn/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=openvpn&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/jenkins.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Jenkins</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to install and configure jenkins  server with plugins configuration.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/jenkins">https://github.com/OT-OSM/jenkins/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=jenkins&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/mysql.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">MySQL</span>
+                        </div>
+                        <div class="cards-dis">A high end ansible role to setup standalone or a  cluster MySQL with best practices in terms of  security and performance tuning.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/MySQL">https://github.com/OT-OSM/MySQL/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=MySQL&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/prometheus.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Prometheus Exporters</span>
+                        </div>
+                        <div class="cards-dis">An ansible role which contains multiple exporters of prometheus  for scrapping data and for enhancing your monitoring stack.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/prometheus-exporters">https://github.com/OT-OSM/prometheus-exporters/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=prometheus-exporters&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/consul.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Consul</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to setup consul cluster with end to end automation.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/consul">https://github.com/OT-OSM/consul/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=consul&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/usermanagement.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Usermanagement</span>
+                        </div>
+                        <div class="cards-dis">An ansible role for user-management in Linux platforms,  It can manage users, their properties with complete automation.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/usermanagement">https://github.com/OT-OSM/usermanagement/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=usermanagement&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/wazuh.png" height="50px" width="50px" alt="">
+                            <span class="cards-title">Wazuh Agent</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to setup and manage Wazuh agent  with the production best-practices.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/wazuh_agent">https://github.com/OT-OSM/wazuh_agent/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=wazuh_agent&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/elasticsearch.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Elasticsearch</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to setup and manage Elasticsearch  standalone and cluster installation.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/elasticsearch_cluster">https://github.com/OT-OSM/elasticsearch_cluster/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=elasticsearch_cluster&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/wazuh.png" height="50px" width="50px" alt="">
+                            <span class="cards-title">Wazuh Manager</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to setup and manage Wazuh manager  with the production best-practices.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/wazuh_manager">https://github.com/OT-OSM/wazuh_manager/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=wazuh_manager&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/opensearch.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Opensearch</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to setup and manage Opensearch  standalone and cluster installation.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/opensearch">https://github.com/OT-OSM/opensearch/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=opensearch&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/prometheus.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">AlertManager</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to setup and manage AlertManager  for alerting using Prometheus.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/alertmanager">https://github.com/OT-OSM/alertmanager/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=alertmanager&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/mongo.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">MongoDB</span>
+                        </div>
+                        <div class="cards-dis">MongoDB ansible role for Standalone ,  Cluster(Replication) setup with Security practices.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/mongo">https://github.com/OT-OSM/mongo/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=mongo&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/prometheus.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Prometheus</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to setup and manage Prometheus  to monitor the complete ecosystem.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/prometheus">https://github.com/OT-OSM/prometheus/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=prometheus&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/nginx.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Nginx</span>
+                        </div>
+                        <div class="cards-dis">An ansible role to install nginx. We are  using nginx hardening as well in this role.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/nginx">https://github.com/OT-OSM/nginx/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=nginx&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/rabbitmq.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">RabbitMQ</span>
+                        </div>
+                        <div class="cards-dis">Ansible role to create, setup and manage  RabbitMQ cluster/standalone.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/RabbitMQ">https://github.com/OT-OSM/RabbitMQ/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=RabbitMQ&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/kafka.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Kafka Cluster</span>
+                        </div>
+                        <div class="cards-dis">A high end ansible role which will setup kafka and  zookeeper cluster with end-to-end automation.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/kafka_cluster">https://github.com/OT-OSM/kafka_cluster/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=kafka_cluster&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/percona.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Percona Cluster</span>
+                        </div>
+                        <div class="cards-dis">A high end ansible role to setup Percona server version 5.7 or greater with best practices in terms of security and performance tuning.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/percona_server">https://github.com/OT-OSM/percona_server/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=percona_server&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/chef.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Linux Armour</span>
+                        </div>
+                        <div class="cards-dis">A ansible roles deals with auditing implementation on  Ubuntu according to CIS benchmark.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/linux_armour">https://github.com/OT-OSM/linux_armour/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=linux_armour&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/grafana.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Grafana</span>
+                        </div>
+                        <div class="cards-dis">Grafana is an opensource tool for metrics visualization of  some services like elasticsearch, prometheus, cloudwatch and  many others. This role is written for prometheus as a datasource.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/grafana">https://github.com/OT-OSM/grafana/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=grafana&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/redis.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Redis</span>
+                        </div>
+                        <div class="cards-dis">A high end ansible role to setup standalone or a  cluster Redis with best practices in terms of security  and performance tuning.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/redis">https://github.com/OT-OSM/redis/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=redis&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/postgresql.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">PostgreSQL</span>
+                        </div>
+                        <div class="cards-dis">This role can be used to install PostgreSQL with version 9.5 and above.  This role is customizable, it support basic functionalities like creating  database and users. Users can modify the role as per there requirements.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-OSM/postgresql">https://github.com/OT-OSM/postgresql/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo=postgresql&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #008000"></span>
+                            <span class="language-text color-text-secondary">YAML</span>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <!-- end automation -->
+            <!-- Cloud Tab  -->
+            <div class="tab-pane fade show" id="pills-cloud" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <p>Cloud automation and software utilities for different cloud providers.
+                    We focus on the major cloud providers, AWS, GCP, and Azure. We generally
+                    develop other terraform modules for multi-cloud providers and automation
+                    utilities in cloud development.</p>
+                <div class="card-wrap">
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/terraform.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Terraform AWS HA EC2 ALB</span>
+                        </div>
+                        <div class="cards-dis">To create a Highly available setup of an EC2 instance  with quick disaster recovery.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-CLOUD-KIT/terraform-aws-ha-ec2-alb">https://github.com/OT-CLOUD-KIT/terraform-aws-ha-ec2-alb/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-cloud-kit&repo=terraform-aws-ha-ec2-alb&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #D3D3D3"></span>
+                            <span class="language-text color-text-secondary">HCL</span>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <!-- end cloud -->
+            <!-- Monitoring Tab  -->
+            <div class="tab-pane fade show" id="pills-monitoring" role="tabpanel" aria-labelledby="pills-monitoring-tab">
+                <p>We focus on developing different monitoring agents for various monitoring tools
+                    like Prometheus, Telegraf, Grafana, etc. Also, we compile our knowledge in
+                    creating different software monitoring dashboards.</p>
+                <div class="card-wrap">
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/grafana.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Grafana Dashboards</span>
+                        </div>
+                        <div class="cards-dis">A repository for various opensource Grafana Dashboards for different metrics and software.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/OT-MONITORING-KIT/GrafanaDashboards">https://github.com/OT-MONITORING-KIT/GrafanaDashboards/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-monitoring-kit&repo=GrafanaDashboards&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #ADD8E6"></span>
+                            <span class="language-text color-text-secondary">JSON</span>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <!-- end monitoring -->
+            <!-- Security Tab  -->
+            <div class="tab-pane fade show" id="pills-security" role="tabpanel" aria-labelledby="pills-security-tab">
+                <p>We focus on developing different monitoring agents for various monitoring tools
+                    like Prometheus, Telegraf, Grafana, etc. Also, we compile our knowledge in
+                    creating different software monitoring dashboards.</p>
+                <div class="card-wrap">
+                                        <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/chef.svg" height="50px" width="50px" alt="">
+                            <span class="cards-title">Linux Baseline</span>
+                        </div>
+                        <div class="cards-dis">A Linux Automation primarily built from scratch by  opstree security to execute Linux checks from all platform.
+</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="https://github.com/opstree-security/linux-baseline">https://github.com/opstree-security/linux-baseline/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=opstree-security&repo=linux-baseline&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                                                                                                                    <span class="language-bubble" style="background-color: #3f0000"></span>
+                            <span class="language-text color-text-secondary">Ruby</span>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <!-- end security -->
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/vendor/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script src="js/slick.min.js"></script>
+</body>
+<footer class="container page-footer font-small blue pt-5 mt-5">
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+            <div class="col-md-4 mt-md-0 mt-3">
+                <a href="https://opstree.github.io">
+                    <img src="static/logo.png" alt="Opstree">
+                </a>
+                <p style="color: 	#808080; font-family: Mukta; font-size: small;">
+                    A-27D, First Floor<br>
+                    Sector 16, Noida, UP - 201301<br>
+                    Call: 0120-4137323<br>
+                </p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-2">
+                <h2 style="color:	#002856; font-family: Mukta;"><strong>Company</strong></h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a style="color: 	#006ec2; font-family: Mukta; font-size: small; text-decoration: none;" href="https://www.opstree.com/about">About Opstree</a>
+                    </li>
+                    <li>
+                        <a style="color: 	#006ec2; font-family: Mukta; font-size: small; text-decoration: none;" href="https://www.opstree.com/contact-us">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-md-0 mb-3">
+                <h2 style="color:	#002856; font-family: Mukta;"><strong>Services</strong></h2>
+                <ul class="list-unstyled" >
+                    <li>
+                        <a style="color: 	#006ec2; font-family: Mukta; font-size: small; text-decoration: none;"
+                           href="https://opstree.com/cloud-devsecops-advisory">Cloud & DevSecOps Advisory</a>
+                    </li>
+                    <li>
+                        <a style="color: 	#006ec2; font-family: Mukta; font-size: small; text-decoration: none;"
+                           href="https://opstree.com/continuous-delivery-automation">Continuous Delivery & Automation</a>
+                    </li>
+                    <li>
+                        <a style="color: 	#006ec2; font-family: Mukta; font-size: small; text-decoration: none;"
+                           href="https://opstree.com/kubernetes-containerization">Kubernetes & Containerization</a>
+                    </li>
+                    <li>
+                        <a style="color: 	#006ec2; font-family: Mukta; font-size: small; text-decoration: none;"
+                           href="https://opstree.com/cloud-platform-engineering">Cloud Platform Engineering</a>
+                    </li>
+                    <li>
+                        <a style="color: 	#006ec2; font-family: Mukta; font-size: small; text-decoration: none;"
+                           href="https://opstree.com/security-as-a-service">Security as a Service</a>
+                    </li>
+                    <li>
+                        <a style="color: 	#006ec2; font-family: Mukta; font-size: small; text-decoration: none;"
+                           href="https://opstree.com/monitoring-platform-reliability-devops-sre">Monitoring & Platform Reliability</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-1 mb-md-0 mb-3">
+                <a href="https://blog.opstree.com/">
+                    <img src="static/blog.svg" alt="Opstree" height="48" width="48">
+                </a>
+            </div>
+            <div class="col-md-1 mb-md-0 mb-3">
+                <a href="https://www.linkedin.com/company/opstree-solutions/">
+                    <img src="static/linkedin.svg" alt="Opstree" height="48" width="48">
+                </a>
+            </div>
+
+            <div class="col-md-1 mb-md-0 mb-3">
+                <a href="https://github.com/opstree">
+                    <img src="static/github.svg" alt="Opstree" height="48" width="48">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
