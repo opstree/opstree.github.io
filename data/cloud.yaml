@@ -1,6 +1,18 @@
+---
 cloud_projects:
+  - name: Terraform AWS EKS
+    logo: amazon-eks.svg
+    description: >
+      To create a Highly available setup of an EKS cluster
+      with quick disaster recovery.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-eks
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-eks
+    repo_name: terraform-aws-eks
+    language: HCL
+    organization: OT-CLOUD-KIT
+
   - name: Terraform AWS HA EC2 ALB
-    logo: terraform.svg
+    logo: alb.svg
     description: >
       To create a Highly available setup of an EC2 instance 
       with quick disaster recovery.
@@ -8,3 +20,247 @@ cloud_projects:
     documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-ha-ec2-alb
     repo_name: terraform-aws-ha-ec2-alb
     language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS Security Groups
+    logo: aws-security-group.svg
+    description: >
+      A terraform module for creation and manage of Security Groups
+      in AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-security-groups
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-security-groups
+    repo_name: terraform-aws-security-groups
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS RDS
+    logo: rds.svg
+    description: >
+      A terraform module for creation and manage of Relation Database
+      Service(RDS) in AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-rds
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-rds
+    repo_name: terraform-aws-security-groups
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS VPC
+    logo: aws-vpc-icon.svg
+    description: >
+      A terraform module for creation and manage of network skeleton
+      on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-vpc
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-vpc
+    repo_name: terraform-aws-vpc
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS EC2
+    logo: ec2.svg
+    description: >
+      A terraform module for creation and manage of different EC2 instances
+      on AWS Cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-ec2-instance
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-ec2-instance
+    repo_name: terraform-aws-ec2-instance
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS DynamoDB
+    logo: dynamodb.svg
+    description: >
+      A terraform module for creation and manage of DynamoDB cluster database
+      on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-dynamodb
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-dynamodb
+    repo_name: terraform-aws-dynamodb
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS SES
+    logo: ses.svg
+    description: >
+      A terraform module for creation and manage of Simple Emailing Service(SES)
+      on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-ses
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-ses
+    repo_name: terraform-aws-ses
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform GCP IAM
+    logo: gcp-iam.svg
+    description: >
+      A terraform module for creation and manage of Identity Access Management(IAM)
+      on GCP cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-gcp-iam
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-gcp-iam
+    repo_name: terraform-gcp-iam
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS Cloudtrail
+    logo: cloudtrail.svg
+    description: >
+      A terraform module for creation and configuration of Cloudtrail
+      on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-cloudtrail
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-cloudtrail
+    repo_name: terraform-aws-cloudtrail
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS CloudFront
+    logo: cloudfront.svg
+    description: >
+      A terraform module for creation and configuration of CloudFront
+      on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-cloudfront
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-cloudfront
+    repo_name: terraform-aws-cloudfront
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS Route Table
+    logo: route-table.svg
+    description: >
+      A terraform module for creation and configuration of Route Table
+      on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-route-table
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-route-table
+    repo_name: terraform-aws-route-table
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS ALB
+    logo: alb.svg
+    description: >
+      A terraform module for creation and configuration of Application 
+      LoadBalancer on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-alb
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-alb
+    repo_name: terraform-aws-alb
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS Network Skeleton
+    logo: aws-vpc-icon.svg
+    description: >
+      A terraform module for creation and configuration of Network 
+      Skeleton on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-network-skeleton
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-network-skeleton
+    repo_name: terraform-aws-network-skeleton
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS RDS MSSQL
+    logo: rds-mssql.svg
+    description: >
+      A terraform module for creation and configuration of RDS 
+      MSSQL on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-rds-mssql
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-rds-mssql
+    repo_name: terraform-aws-rds-mssql
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS RDS MariaDB
+    logo: rds-mysql.svg
+    description: >
+      A terraform module for creation and configuration of RDS 
+      MariaDB on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-mariadb
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-mariadb
+    repo_name: terraform-aws-mariadb
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS ElastiCache Cluster
+    logo: elasticache.svg
+    description: >
+      A terraform module for creation and configuration of ElastiCache cluster 
+      on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-elasticache-cluster
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-elasticache-cluster
+    repo_name: terraform-aws-elasticache-cluster
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS SNS
+    logo: sns.svg
+    description: >
+      A terraform module for creation and configuration of SNS service
+      on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-sns
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-sns
+    repo_name: terraform-aws-sns
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS Secret Manager
+    logo: aws-secret-manager.svg
+    description: >
+      A terraform module for creation and configuration of Secret Manager 
+      service on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-secret-manager
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-secret-manager
+    repo_name: terraform-aws-secret-manager
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS Cross Account
+    logo: aws-logo.svg
+    description: >
+      Terraform module which creates IAM role in target account which will 
+      allow user specified AWS accounts to assume it and can access resources 
+      according to permission attached to this role.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-cross-account
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-cross-account
+    repo_name: terraform-aws-cross-account
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS VPC Peering
+    logo: aws-vpc-peering.svg
+    description: >
+      A terraform module for AWS VPC Peering Service with in 
+      & cross region.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-vpc-peering
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-vpc-peering
+    repo_name: terraform-aws-vpc-peering
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS ALB Target Group
+    logo: alb.svg
+    description: >
+      A terraform module for creation and configuration of Target Group 
+      service on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-alb_target_group
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-alb_target_group
+    repo_name: terraform-aws-alb_target_group
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS Route53 Mapping
+    logo: aws-route53.svg
+    description: >
+      A terraform module for creation and configuration of Route53 mapping in Route53 
+      domain service on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-route53-record-mapping
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-route53-record-mapping
+    repo_name: terraform-aws-route53-record-mapping
+    language: HCL
+    organization: OT-CLOUD-KIT
+
+  - name: Terraform AWS Static Website Container
+    logo: static-website.svg
+    description: >
+      A terraform module for static website hosting using S3 and CloudFront
+      on AWS cloud.
+    repo_link: https://github.com/OT-CLOUD-KIT/terraform-aws-static-website-container
+    documentation: https://github.com/OT-CLOUD-KIT/terraform-aws-static-website-container
+    repo_name: terraform-aws-static-website-container
+    language: HCL
+    organization: OT-CLOUD-KIT

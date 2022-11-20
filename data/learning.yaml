@@ -1,0 +1,179 @@
+---
+learning_projects:
+  - name: Deployment Strategies
+    logo: deployment.svg
+    description: >
+      A repository is created to get your hands dirty 
+      with various deployment strategies in a very simplistic fashion.
+    repo_link: https://github.com/OT-TRAINING/DeploymentStrategies
+    documentation: https://github.com/OT-TRAINING/DeploymentStrategies
+    repo_name: DeploymentStrategies
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Bash Scripting
+    logo: bash.svg
+    description: >
+      A repository is created to get your hands dirty 
+      with various bash scripting assignments.
+    repo_link: https://github.com/OT-TRAINING/bash-scripting
+    documentation: https://github.com/OT-TRAINING/bash-scripting
+    repo_name: bash-scripting
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Azure DevOps
+    logo: azure-devops.svg
+    description: >
+      A broad view about What Azure Devops is and what are its features. 
+      Also, hands-on lab for detail learning.
+    repo_link: https://github.com/OT-TRAINING/azure-devops-zero-to-hero
+    documentation: https://github.com/OT-TRAINING/azure-devops-zero-to-hero/wiki
+    repo_name: azure-devops-zero-to-hero
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Helm
+    logo: helm.svg
+    description: >
+      A learning module to provide an individual, a holistic idea of helm, 
+      helm charts, architecture, it's working, and its setup.
+    repo_link: https://github.com/OT-TRAINING/helm
+    documentation: https://github.com/OT-TRAINING/helm/wiki
+    repo_name: helm
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Spinnaker
+    logo: spinnaker.svg
+    description: >
+      A learning module to understand and implement Spinnaker as a 
+      Continuous Delivery tool with different use-cases
+    repo_link: https://github.com/OT-TRAINING/spinnaker-study
+    documentation: https://github.com/OT-TRAINING/spinnaker-study/blob/master/lab_book.zip
+    repo_name: spinnaker-study
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Kubernetes Basics
+    logo: kubernetes.svg
+    description: >
+      A learning module to understand and implement Kubernetes 
+      Basic concepts with a real microservice example.
+    repo_link: https://github.com/OT-TRAINING/OT-MicroServices-Training
+    documentation: https://github.com/OT-TRAINING/OT-MicroServices-Training/wiki
+    repo_name: OT-MicroServices-Training
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Kubernetes Advance
+    logo: kubernetes.svg
+    description: >
+      A learning module to understand and implement Kubernetes 
+      advance concepts with a real microservice example.
+    repo_link: https://github.com/OT-TRAINING/neo4j-training
+    documentation: https://github.com/OT-TRAINING/neo4j-training/wiki
+    repo_name: neo4j-training
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Version Control System
+    logo: git.svg
+    description: >
+      A learning repository to understand the different 
+      concepts of Git as a version control system(VCS).
+    repo_link: https://github.com/OT-TRAINING/VCS-Training
+    documentation: https://github.com/OT-TRAINING/VCS-Training/wiki
+    repo_name: VCS-training
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: DevSecOps
+    logo: devops.svg
+    description: >
+      A learning repository to understand the DevSecOps methodology 
+      and different security testing tools for white-box and black-box testing.
+    repo_link: https://github.com/OT-TRAINING/DevSecOps
+    documentation: https://github.com/OT-TRAINING/DevSecOps/wiki
+    repo_name: DevSecOps
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Terraform AWS
+    logo: terraform.svg
+    description: >
+      A learning repository to learn the AWS concepts using Terraform automation. 
+      This module mainly focus on learning on Terraform and how it can be implemented with AWS Cloud.
+    repo_link: https://github.com/OT-TRAINING/TerraformAWSV2
+    documentation: https://github.com/OT-TRAINING/TerraformAWSV2/wiki
+    repo_name: TerraformAWSV2
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Jenkins Fundamental
+    logo: jenkins.svg
+    description: >
+      This tutorial walks you through setting up Jenkins using Linux & Docker 
+      in a very handy way. This Tutorial helps people finding manual & automate 
+      approach for setting and managing Jenkins in different ways.
+    repo_link: https://github.com/OT-TRAINING/jenkins-fundamental
+    documentation: https://github.com/OT-TRAINING/jenkins-fundamental/wiki
+    repo_name: jenkins-fundamental
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Puppet
+    logo: puppet.svg
+    description: >
+      A tutorial of learning the concepts of automations, Software Configuration 
+      Management(SCM) and how puppet can be used to implement it.
+    repo_link: https://github.com/OT-TRAINING/Puppet
+    documentation: https://github.com/OT-TRAINING/Puppet/wiki
+    repo_name: Puppet
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Prometheus
+    logo: prometheus.svg
+    description: >
+      A tutorial of learning the concepts of monitoring, why it is important? 
+      Also, this tutorial helps in learning Prometheus and it's architecture 
+      and how it can be used as a monitoring tool.
+    repo_link: https://github.com/OT-TRAINING/Prometheus
+    documentation: https://github.com/OT-TRAINING/Prometheus/wiki
+    repo_name: Puppet
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Docker
+    logo: docker.svg
+    description: >
+      A tutorial of learning the concepts of Docker and it's important concepts. 
+      Also, there is hands-on lab attached to this tutorial.
+    repo_link: https://github.com/OT-TRAINING/Docker
+    documentation: https://github.com/OT-TRAINING/Docker/wiki
+    repo_name: Docker
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Terraform GCP
+    logo: terraform.svg
+    description: >
+      A learning repository to learn the GCP concepts using Terraform automation. 
+      This module mainly focus on learning on Terraform and how it can be implemented with GCP Cloud.
+    repo_link: https://github.com/OT-TRAINING/TerraformGCP
+    documentation: https://github.com/OT-TRAINING/TerraformGCP/wiki
+    repo_name: TerraformGCP
+    language: Markdown
+    organization: OT-TRAINING
+
+  - name: Azure Biceps
+    logo: azure.svg
+    description: >
+      A learning repository to learn the Azure Biceps concepts 
+      and how we can implement with the help of hands-on lab.
+    repo_link: https://github.com/OT-TRAINING/AzureBicep
+    documentation: https://github.com/OT-TRAINING/AzureBicep/wiki
+    repo_name: TerraformGCP
+    language: Markdown
+    organization: OT-TRAINING

@@ -1,4 +1,40 @@
+---
 automation_projects:
+  - name: OT-DockerLinter
+    logo: ot-dockerlinter.svg
+    description: >
+      OT-DockerLinter helps you in writing a Dockerfile with best practices. 
+      This tools can be integrated with your container native CI pipeline for 
+      Dockerfile's static code analysis and reporting.
+    repo_link: https://github.com/opstree/OT-Dockerlinter
+    documentation: https://github.com/opstree/OT-Dockerlinter
+    repo_name: OT-Dockerlinter
+    language: Go
+    organization: Opstree
+
+  - name: Redis Load Test
+    logo: redis.svg
+    description: >
+      A utility to provide easy and fast performance testing for Redis 
+      with Locust as load-testing framework.
+    repo_link: https://github.com/opstree/redis-load-test
+    documentation: https://github.com/opstree/redis-load-test
+    repo_name: redis-load-test
+    language: Python
+    organization: opstree
+
+  - name: Redis Migrator
+    logo: redis-migrator.svg
+    description: >
+      Redis migrator is a golang based tool to migrate the database keys from 
+      one redis cluster to another. This tool can be used to migrate 
+      different types of redis keys from one redis setup to another.
+    repo_link: https://github.com/opstree/redis-migration
+    documentation: https://github.com/opstree/redis-migration
+    repo_name: redis-migration
+    language: Go
+    organization: opstree
+
   - name: OpenVPN
     logo: openvpn.svg
     description: >
@@ -8,6 +44,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/openvpn
     repo_name: openvpn
     language: YAML
+    organization: OT-OSM
 
   - name: Jenkins
     logo: jenkins.svg
@@ -18,6 +55,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/jenkins
     repo_name: jenkins
     language: YAML
+    organization: OT-OSM
 
   - name: MySQL
     logo: mysql.svg
@@ -29,6 +67,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/MySQL
     repo_name: MySQL
     language: YAML
+    organization: OT-OSM
 
   - name: Prometheus Exporters
     logo: prometheus.svg
@@ -39,6 +78,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/prometheus-exporters
     repo_name: prometheus-exporters
     language: YAML
+    organization: OT-OSM
 
   - name: Consul
     logo: consul.svg
@@ -49,6 +89,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/consul
     repo_name: consul
     language: YAML
+    organization: OT-OSM
 
   - name: Usermanagement
     logo: usermanagement.svg
@@ -59,6 +100,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/usermanagement
     repo_name: usermanagement
     language: YAML
+    organization: OT-OSM
 
   - name: Wazuh Agent
     logo: wazuh.png
@@ -69,6 +111,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/wazuh_agent
     repo_name: wazuh_agent
     language: YAML
+    organization: OT-OSM
 
   - name: Elasticsearch
     logo: elasticsearch.svg
@@ -79,6 +122,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/elasticsearch_cluster
     repo_name: elasticsearch_cluster
     language: YAML
+    organization: OT-OSM
 
   - name: Wazuh Manager
     logo: wazuh.png
@@ -89,6 +133,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/wazuh_manager
     repo_name: wazuh_manager
     language: YAML
+    organization: OT-OSM
 
   - name: Opensearch
     logo: opensearch.svg
@@ -99,6 +144,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/opensearch
     repo_name: opensearch
     language: YAML
+    organization: OT-OSM
 
   - name: AlertManager
     logo: prometheus.svg
@@ -109,6 +155,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/alertmanager
     repo_name: alertmanager
     language: YAML
+    organization: OT-OSM
 
   - name: MongoDB
     logo: mongo.svg
@@ -119,6 +166,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/mongo
     repo_name: mongo
     language: YAML
+    organization: OT-OSM
 
   - name: Prometheus
     logo: prometheus.svg
@@ -129,6 +177,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/prometheus
     repo_name: prometheus
     language: YAML
+    organization: OT-OSM
 
   - name: Nginx
     logo: nginx.svg
@@ -139,6 +188,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/nginx
     repo_name: nginx
     language: YAML
+    organization: OT-OSM
 
   - name: RabbitMQ
     logo: rabbitmq.svg
@@ -149,6 +199,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/RabbitMQ
     repo_name: RabbitMQ
     language: YAML
+    organization: OT-OSM
 
   - name: Kafka Cluster
     logo: kafka.svg
@@ -159,6 +210,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/kafka_cluster
     repo_name: kafka_cluster
     language: YAML
+    organization: OT-OSM
 
   - name: Percona Cluster
     logo: percona.svg
@@ -170,6 +222,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/percona_server
     repo_name: percona_server
     language: YAML
+    organization: OT-OSM
 
   - name: Linux Armour
     logo: chef.svg
@@ -180,6 +233,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/linux_armour
     repo_name: linux_armour
     language: YAML
+    organization: OT-OSM
 
   - name: Grafana
     logo: grafana.svg
@@ -191,6 +245,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/grafana
     repo_name: grafana
     language: YAML
+    organization: OT-OSM
 
   - name: Redis
     logo: redis.svg
@@ -202,6 +257,7 @@ automation_projects:
     documentation: https://github.com/OT-OSM/redis
     repo_name: redis
     language: YAML
+    organization: OT-OSM
 
   - name: PostgreSQL
     logo: postgresql.svg
@@ -213,3 +269,4 @@ automation_projects:
     documentation: https://github.com/OT-OSM/postgresql
     repo_name: postgresql
     language: YAML
+    organization: OT-OSM

@@ -1,10 +1,67 @@
+---
 security_projects:
   - name: Linux Baseline
-    logo: chef.svg
+    logo: linux.svg
     description: >
       A Linux Automation primarily built from scratch by 
-      opstree security to execute Linux checks from all platform.
+      Opstree security to execute Linux checks from all platform.
     repo_link: https://github.com/opstree-security/linux-baseline
     documentation: https://github.com/opstree-security/linux-baseline
     repo_name: linux-baseline
     language: Ruby
+    organization: opstree-security
+
+  - name: MongoDB Baseline
+    logo: mongo.svg
+    description: >
+      A security automation to audit MongoDB standalone and cluster for
+      CIS security benchmarks.
+    repo_link: https://github.com/opstree-security/mongodb-baseline
+    documentation: https://github.com/opstree-security/mongodb-baseline
+    repo_name: mongodb-baseline
+    language: Ruby
+    organization: opstree-security
+
+  - name: MySQL Baseline
+    logo: mysql.svg
+    description: >
+      A security automation to audit MySQL standalone and cluster for
+      CIS security benchmarks.
+    repo_link: https://github.com/opstree-security/mysql-baseline
+    documentation: https://github.com/opstree-security/mysql-baseline
+    repo_name: mysql-baseline
+    language: Ruby
+    organization: opstree-security
+
+  - name: PostgreSQL Baseline
+    logo: postgresql.svg
+    description: >
+      A security automation to audit PostgresSQL standalone and cluster for
+      CIS security benchmarks.
+    repo_link: https://github.com/opstree-security/postgres-baseline
+    documentation: https://github.com/opstree-security/postgres-baseline
+    repo_name: postgres-baseline
+    language: Ruby
+    organization: opstree-security
+
+  - name: Nginx Baseline
+    logo: nginx.svg
+    description: >
+      A security automation to audit NGINX standalone and cluster for
+      CIS security benchmarks.
+    repo_link: https://github.com/opstree-security/nginx-baseline
+    documentation: https://github.com/opstree-security/nginx-baseline
+    repo_name: nginx-baseline
+    language: Ruby
+    organization: opstree-security
+
+  - name: Linux Armour
+    logo: chef.svg
+    description: >
+      A ansible roles deals with auditing implementation on 
+      Ubuntu according to CIS benchmark.
+    repo_link: https://github.com/OT-OSM/linux_armour
+    documentation: https://github.com/OT-OSM/linux_armour
+    repo_name: linux_armour
+    language: YAML
+    organization: OT-OSM

@@ -9,6 +9,7 @@ container_projects:
     documentation: https://ot-redis-operator.netlify.app/
     repo_name: redis-operator
     language: Go
+    organization: OT-CONTAINER-KIT
 
   - name: Logging Operator
     logo: logging-operator.svg
@@ -20,6 +21,7 @@ container_projects:
     technology: container
     repo_name: logging-operator
     language: Go
+    organization: OT-CONTAINER-KIT
 
   - name: Dynamic PV Scaler
     logo: dynamic-pv-scaler.svg
@@ -27,10 +29,11 @@ container_projects:
       A golang based application that can scale 
       persistent volume dynamically in Kubernetes cluster.
     repo_link: https://github.com/opstree/dynamic-pv-scaler
-    documentation: https://github.com/opstree/k8s-vault-webhook
+    documentation: https://github.com/opstree/dynamic-pv-scaler
     technology: container
-    repo_name: k8s-vault-webhook
+    repo_name: dynamic-pv-scaler
     language: Go
+    organization: opstree
 
   - name: K8s Vault Webhook
     logo: k8s-vault-webhook.svg
@@ -42,6 +45,7 @@ container_projects:
     technology: container
     repo_name: k8s-vault-webhook
     language: Go
+    organization: OT-CONTAINER-KIT
 
   - name: MongoDB Operator
     logo: mongodb-operator.svg
@@ -53,6 +57,7 @@ container_projects:
     technology: container
     repo_name: redis-operator
     language: Go
+    organization: OT-CONTAINER-KIT
 
   - name: Helm Charts
     logo: helm-chart-logo.svg
@@ -64,6 +69,7 @@ container_projects:
     technology: container
     repo_name: helm-charts
     language: YAML
+    organization: OT-CONTAINER-KIT
 
   - name: Redis
     logo: redis-operator-logo.svg
@@ -75,6 +81,7 @@ container_projects:
     technology: container
     repo_name: redis
     language: Docker
+    organization: OT-CONTAINER-KIT
 
   - name: K8s Utils
     logo: kubernetes.svg
@@ -86,3 +93,4 @@ container_projects:
     technology: container
     repo_name: k8s-utils
     language: Python
+    organization: OT-CONTAINER-KIT

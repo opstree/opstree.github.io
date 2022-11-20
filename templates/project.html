@@ -22,9 +22,9 @@
 </head>
 <body>
 <div class="container p-2">
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
         <div class="navbar-brand ps-5 p-2">
-            <a href="./index.html"><img src="./static/logo.png" alt="..."></a>
+            <a class="nav-link" href="./index.html"><img src="./static/logo.png" class="img-fluid" alt="..."></a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,6 +86,10 @@
                 <button class="nav-link" id="pills-security-tab" data-bs-toggle="pill" data-bs-target="#pills-security"
                         aria-selected="false">Security</button>
             </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-learning-tab" data-bs-toggle="pill" data-bs-target="#pills-learning"
+                        aria-selected="false">Learning</button>
+            </li>
         </ul>
         <!-- Container start -->
         <div class="tab-content" id="pills-tabContent">
@@ -105,7 +109,7 @@
                         <br/>
                         <a style="text-decoration: None; font-size: 15px;" target="_blank" href="{{ data.documentation }}">{{ data.documentation }}/</a>
                         <div class="cards-dis">
-                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-container-kit&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user={{ data.organization }}&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
                         {% if data.language == 'Python' %}
                           {% set color_code = '#3572A5' %}
                         {% elif data.language == 'Go' %}
@@ -139,7 +143,7 @@
                         <br/>
                         <a style="text-decoration: None; font-size: 15px;" target="_blank" href="{{ data.documentation }}">{{ data.documentation }}/</a>
                         <div class="cards-dis">
-                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-osm&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user={{ data.organization }}&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
                             {% if data.language == 'Python' %}
                                 {% set color_code = '#3572A5' %}
                             {% elif data.language == 'Go' %}
@@ -174,7 +178,7 @@
                         <br/>
                         <a style="text-decoration: None; font-size: 15px;" target="_blank" href="{{ data.documentation }}">{{ data.documentation }}/</a>
                         <div class="cards-dis">
-                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-cloud-kit&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user={{ data.organization }}&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
                             {% if data.language == 'Python' %}
                                 {% set color_code = '#3572A5' %}
                             {% elif data.language == 'Go' %}
@@ -210,7 +214,7 @@
                         <br/>
                         <a style="text-decoration: None; font-size: 15px;" target="_blank" href="{{ data.documentation }}">{{ data.documentation }}/</a>
                         <div class="cards-dis">
-                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=ot-monitoring-kit&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user={{ data.organization }}&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
                             {% if data.language == 'Python' %}
                                 {% set color_code = '#3572A5' %}
                             {% elif data.language == 'Go' %}
@@ -248,7 +252,7 @@
                         <br/>
                         <a style="text-decoration: None; font-size: 15px;" target="_blank" href="{{ data.documentation }}">{{ data.documentation }}/</a>
                         <div class="cards-dis">
-                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user=opstree-security&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user={{ data.organization }}&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
                             {% if data.language == 'Python' %}
                                 {% set color_code = '#3572A5' %}
                             {% elif data.language == 'Go' %}
@@ -270,6 +274,43 @@
                 </div>
             </div>
             <!-- end security -->
+            <!-- Learning Tab  -->
+            <div class="tab-pane fade show" id="pills-learning" role="tabpanel" aria-labelledby="pills-learning-tab">
+                <p>We develop various course modules for beginners to the expert level in learning initiatives.
+                    Our learning GitHub repo has different learning materials with the hands-on lab.</p>
+                <div class="card-wrap">
+                    {% for data in learning_projects %}
+                    <div class="card-wrap-inner">
+                        <div class="cards-img" style="text-align:left;">
+                            <img src="./static/{{ data.logo }}" height="50px" width="50px" alt="">
+                            <span class="cards-title">{{ data.name }}</span>
+                        </div>
+                        <div class="cards-dis">{{ data.description }}</div>
+                        <br/>
+                        <a style="text-decoration: None; font-size: 15px;" target="_blank" href="{{ data.documentation }}">{{ data.documentation }}/</a>
+                        <div class="cards-dis">
+                            <iframe class="left p-0" src="https://ghbtns.com/github-btn.html?user={{ data.organization }}&repo={{ data.repo_name }}&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                            {% if data.language == 'Python' %}
+                                {% set color_code = '#3572A5' %}
+                            {% elif data.language == 'Go' %}
+                                {% set color_code = '#00ADD8' %}
+                            {% elif data.language == 'Docker' %}
+                                {% set color_code = '#00008B' %}
+                            {% elif data.language == 'YAML' %}
+                                {% set color_code = '#008000' %}
+                            {% elif data.language == 'Ruby' %}
+                                {% set color_code = '#3f0000' %}
+                            {% elif data.language == 'Markdown' %}
+                                {% set color_code = '#C4A484' %}
+                            {% endif %}
+                            <span class="language-bubble" style="background-color: {{ color_code }}"></span>
+                            <span class="language-text color-text-secondary">{{ data.language }}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <!-- end learning -->
         </div>
     </div>
 </div>

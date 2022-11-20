@@ -8,6 +8,7 @@
     - data/cloud.yaml
     - data/monitoring.yaml
     - data/security.yaml
+    - data/learning.yaml
   tasks:
     - name: Creating project HTML page from template
       template:

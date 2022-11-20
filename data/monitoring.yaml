@@ -1,3 +1,4 @@
+---
 monitoring_projects:
   - name: Grafana Dashboards
     logo: grafana.svg
@@ -8,3 +9,37 @@ monitoring_projects:
     documentation: https://github.com/OT-MONITORING-KIT/GrafanaDashboards
     repo_name: GrafanaDashboards
     language: JSON
+    organization: OT-MONITORING-KIT
+
+  - name: Druid Exporter
+    logo: druid-exporter-logo.svg
+    description: >
+      A Golang based exporter captures druid API metrics as well as JSON 
+      emitted metrics and convert them into Prometheus time-series format.
+    repo_link: https://github.com/opstree/druid-exporter
+    documentation: https://github.com/opstree/druid-exporter
+    repo_name: druid-exporter
+    language: Go
+    organization: opstree
+
+  - name: Prometheus Exporters
+    logo: prometheus.svg
+    description: >
+      An ansible role which contains multiple exporters of prometheus 
+      for scrapping data and for enhancing your monitoring stack.
+    repo_link: https://github.com/OT-OSM/prometheus-exporters
+    documentation: https://github.com/OT-OSM/prometheus-exporters
+    repo_name: prometheus-exporters
+    language: YAML
+    organization: OT-OSM
+
+  - name: Prometheus
+    logo: prometheus.svg
+    description: >
+      An ansible role to setup and manage Prometheus 
+      to monitor the complete ecosystem.
+    repo_link: https://github.com/OT-OSM/prometheus
+    documentation: https://github.com/OT-OSM/prometheus
+    repo_name: prometheus
+    language: YAML
+    organization: OT-OSM
